@@ -1,0 +1,276 @@
+info:
+  namespace: itemsadder
+recipes:
+items:
+  empty_cup:
+    display_name: display-name-empty_cup
+    permission: empty_cup
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/empty_cup.png
+  flour:
+    display_name: display-name-flour
+    permission: flour
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/flour.png
+  dough:
+    display_name: display-name-dough
+    permission: dough
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/dough.png
+  drink_glass:
+    display_name: display-name-drink_glass
+    permission: drink_glass
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/drink_glass.png
+  bug_medal:
+    display_name: display-name-bug_medal
+    permission: bug_medal
+    lore:
+    - 'lore-1-bug_medal'
+    - 'lore-2-bug_medal'
+    - 'lore-3-bug_medal'
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/bug_medal.png
+  cute_medal:
+    display_name: display-name-cute_medal
+    permission: cute_medal
+    lore:
+    - 'lore-1-cute_medal'
+    - 'lore-2-cute_medal'
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/cute_medal.png
+  donator_medal:
+    display_name: display-name-donator_medal
+    permission: donator_medal
+    lore:
+    - 'lore-1-donator_medal'
+    - 'lore-2-donator_medal'
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/donator_medal.png
+  coin:
+    display_name: display-name-coin
+    permission: coin
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/coin.png
+  banknote:
+    display_name: display-name-banknote
+    permission: banknote
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/banknote.png
+  sack_of_money:
+    display_name: display-name-sack_of_money
+    permission: sack_of_money
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/sack_of_money.png
+  light_blue_coupon:
+    display_name: display-name-light_blue_coupon
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/light_blue_coupon.png
+  turquoise_coupon:
+    display_name: display-name-turquoise_coupon
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/turquoise_coupon.png
+  purple_coupon:
+    display_name: display-name-purple_coupon
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/purple_coupon.png
+  green_coupon:
+    display_name: display-name-green_coupon
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/green_coupon.png
+  red_coupon:
+    display_name: display-name-red_coupon
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/red_coupon.png
+  black_coupon:
+    display_name: display-name-black_coupon
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/black_coupon.png
+  white_coupon:
+    display_name: display-name-white_coupon
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/white_coupon.png
+  golden_coupon:
+    display_name: display-name-golden_coupon
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/golden_coupon.png
+  blue_ring:
+    display_name: display-name-blue_ring
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/blue_ring.png
+  light_blue_ring:
+    display_name: display-name-light_blue_ring
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/light_blue_ring.png
+  turquoise_ring:
+    display_name: display-name-turquoise_ring
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/turquoise_ring.png
+  purple_ring:
+    display_name: display-name-purple_ring
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/purple_ring.png
+  green_ring:
+    display_name: display-name-green_ring
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/green_ring.png
+  red_ring:
+    display_name: display-name-red_ring
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/red_ring.png
+  black_ring:
+    display_name: display-name-black_ring
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/black_ring.png
+  white_ring:
+    display_name: display-name-white_ring
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/white_ring.png
+  golden_ring:
+    display_name: display-name-golden_ring
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/golden_ring.png
+  blue_key:
+    display_name: display-name-blue_key
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/blue_key.png
+  light_blue_key:
+    display_name: display-name-light_blue_key
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/light_blue_key.png
+  turquoise_key:
+    display_name: display-name-turquoise_key
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/turquoise_key.png
+  purple_key:
+    display_name: display-name-purple_key
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/purple_key.png
+  green_key:
+    display_name: display-name-green_key
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/green_key.png
+  red_key:
+    display_name: display-name-red_key
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/red_key.png
+  black_key:
+    display_name: display-name-black_key
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/black_key.png
+  white_key:
+    display_name: display-name-white_key
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/white_key.png
+  golden_key:
+    display_name: display-name-golden_key
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/golden_key.png

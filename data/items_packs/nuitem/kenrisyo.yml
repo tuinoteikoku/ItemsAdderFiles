@@ -1,0 +1,13 @@
+info:
+  namespace: nuitem
+
+items:
+  toti_kenrisyo:
+    display_name: 土地権利書
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - item/white_coupon.png
+    drop:
+      show_name: true

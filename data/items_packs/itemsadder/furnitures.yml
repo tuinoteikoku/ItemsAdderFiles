@@ -1,0 +1,1262 @@
+info:
+  namespace: itemsadder
+items:
+  old_clock:
+    display_name: display-name-old_clock
+    permission: old_clock
+    lore:
+    - 'lore-decorative-item'
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/old_clock
+    behaviours:
+      furniture:
+        solid: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 3
+  opened_chest:
+    display_name: display-name-opened_chest
+    permission: opened_chest
+    lore:
+    - 'lore-decorative-item'
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/opened_chest
+    behaviours:
+      furniture:
+        solid: true
+  computer_desk:
+    display_name: display-name-computer_desk
+    permission: computer_desk
+    lore:
+    - 'lore-decorative-item'
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/computer_desk
+    behaviours:
+      furniture:
+        small: true
+        solid: true
+  table:
+    display_name: display-name-table
+    permission: table
+    lore:
+    - 'lore-decorative-item'
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/table
+    behaviours:
+      furniture:
+        small: true
+        solid: true
+  lamp:
+    display_name: display-name-lamp
+    permission: lamp
+    lore:
+    - 'lore-decorative-item'
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/lamp
+    behaviours:
+      furniture:
+        light_level: 13
+
+  simple_chair:
+    display_name: display-name-simple_chair
+    permission: simple_chair
+    lore:
+    - 'lore-chair'
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/simple_chair
+    behaviours:
+      furniture:
+        small: true
+      furniture_sit:
+        sit_height: 0.5
+  lava_lamp:
+    display_name: display-name-lava_lamp
+    permission: lava_lamp
+    lore:
+    - 'lore-decorative-item'
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/lava_lamp
+    behaviours:
+      furniture:
+        small: true
+        light_level: 7
+  white_chair:
+    display_name: display-name-white_chair
+    permission: white_chair
+    lore:
+    - 'lore-chair'
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/white_chair
+    behaviours:
+      furniture:
+        small: true
+      furniture_sit:
+        sit_height: 0.5
+  glass_table:
+    display_name: display-name-glass_table
+    permission: glass_table
+    lore:
+    - 'lore-decorative-item'
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/glass_table
+    behaviours:
+      furniture:
+        small: true
+        solid: true
+  computer_chair:
+    display_name: display-name-computer_chair
+    permission: computer_chair
+    lore:
+    - 'lore-chair'
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/computer_chair
+    behaviours:
+      furniture:
+        small: true
+      furniture_sit:
+        sit_height: 0.5
+  monitor:
+    display_name: display-name-monitor
+    permission: monitor
+    lore:
+    - 'lore-decorative-item'
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/monitor
+    behaviours:
+      furniture:
+        small: true
+  tv:
+    display_name: display-name-tv
+    permission: tv
+    lore:
+    - 'lore-decorative-item'
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/tv
+    behaviours:
+      furniture:
+        small: true
+  mini_fridge:
+    display_name: display-name-mini_fridge
+    permission: mini_fridge
+    lore:
+    - 'lore-decorative-item'
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/mini_fridge
+    behaviours:
+      furniture:
+        gravity: false
+        small: true
+        solid: true
+  energy_extractor:
+    display_name: display-name-energy_extractor
+    permission: energy_extractor
+    lore:
+    - 'lore-1-energy_extractor'
+    - 'lore-2-energy_extractor'
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/energy_extractor
+    behaviours:
+      furniture:
+        small: true
+        light_level: 7
+        solid: true
+      furniture_trade_machine:
+        title: Energy Extractor
+        gui_texture:
+          left: energy_extractor_left
+          right: energy_extractor_right
+        trades_list:
+          cobblestone:
+            ingredients:
+              slot1:
+                item: COBBLESTONE
+                amount: 64
+            result:
+              item: energy_orb
+              amount: 6
+          cobblestone_slab:
+            ingredients:
+              slot1:
+                item: COBBLESTONE_SLAB
+                amount: 64
+            result:
+              item: energy_orb
+              amount: 3
+          dirt:
+            ingredients:
+              slot1:
+                item: DIRT
+                amount: 64
+            result:
+              item: energy_orb
+              amount: 6
+          netherrack:
+            ingredients:
+              slot1:
+                item: NETHERRACK
+                amount: 64
+            result:
+              item: energy_orb
+              amount: 6
+          coal:
+            ingredients:
+              slot1:
+                item: COAL
+                amount: 32
+            result:
+              item: energy_orb
+              amount: 16
+          oak_planks:
+            ingredients:
+              slot1:
+                item: OAK_PLANKS
+                amount: 64
+            result:
+              item: energy_orb
+              amount: 8
+          OAK_PLANKS:
+            ingredients:
+              slot1:
+                item: OAK_PLANKS
+                amount: 64
+            result:
+              item: energy_orb
+              amount: 8
+          birch_planks:
+            ingredients:
+              slot1:
+                item: BIRCH_PLANKS
+                amount: 64
+            result:
+              item: energy_orb
+              amount: 8
+          redstone:
+            ingredients:
+              slot1:
+                item: REDSTONE
+                amount: 64
+            result:
+              item: energy_orb
+              amount: 4
+          iron_ingot:
+            ingredients:
+              slot1:
+                item: IRON_INGOT
+                amount: 2
+            result:
+              item: energy_orb
+              amount: 32
+          diamond:
+            ingredients:
+              slot1:
+                item: DIAMOND
+                amount: 1
+            result:
+              item: energy_capsule
+              amount: 8
+          bronze_ingot:
+            ingredients:
+              slot1:
+                item: bronze_ingot
+                amount: 1
+            result:
+              item: energy_capsule
+              amount: 1
+  energy_converter:
+    display_name: display-name-energy_converter
+    permission: energy_converter
+    lore:
+    - 'lore-1-energy_converter'
+    - 'lore-2-energy_converter'
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/energy_converter
+    behaviours:
+      furniture:
+        small: true
+        light_level: 7
+        solid: true
+      furniture_trade_machine:
+        title: Energy Converter
+        gui_texture:
+          left: energy_converter_left
+          right: energy_converter_right
+        trades_list:
+          dirt:
+            ingredients:
+              slot1:
+                item: energy_orb
+                amount: 6
+            result:
+              item: DIRT
+              amount: 64
+          cobblestone:
+            ingredients:
+              slot1:
+                item: energy_orb
+                amount: 6
+            result:
+              item: COBBLESTONE
+              amount: 64
+          cobblestone_stairs:
+            ingredients:
+              slot1:
+                item: energy_orb
+                amount: 6
+            result:
+              item: COBBLESTONE_STAIRS
+              amount: 64
+          iron_ingot:
+            ingredients:
+              slot1:
+                item: energy_orb
+                amount: 32
+            result:
+              item: IRON_INGOT
+              amount: 2
+          diamond_energy:
+            ingredients:
+              slot1:
+                item: energy_capsule
+                amount: 8
+            result:
+              item: DIAMOND
+              amount: 1
+          diamond_small_energy:
+            ingredients:
+              slot1:
+                item: small_energy_capsule
+                amount: 64
+            result:
+              item: DIAMOND
+              amount: 1
+  vending_machine:
+    display_name: display-name-vending_machine
+    permission: vending_machine
+    lore:
+    - 'lore-1-vending_machine'
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/vending_machine
+    behaviours:
+      furniture_trade_machine:
+        title: Vending Machine
+        gui_texture:
+          left: vending_machine_left
+          right: vending_machine_right
+        trades_list:
+          hamburger:
+            ingredients:
+              slot1:
+                item: COBBLESTONE
+                amount: 64
+            result:
+              item: hamburger
+              amount: 1
+          hotdog:
+            ingredients:
+              slot1:
+                item: COBBLESTONE
+                amount: 64
+              slot2:
+                item: GRANITE
+                amount: 8
+            result:
+              item: hotdog
+              amount: 1
+      furniture:
+        solid: true
+  coffee_machine:
+    display_name: display-name-coffee_machine
+    permission: coffee_machine
+    lore:
+    - 'lore-1-coffee_machine'
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/coffee_machine
+    behaviours:
+      furniture:
+        small: true
+      furniture_trade_machine:
+        title: Coffee Machine
+        gui_texture:
+          left: coffee_machine_left
+          right: coffee_machine_right
+        trades_list:
+          hamburger:
+            ingredients:
+              slot1:
+                item: COCOA_BEANS
+                amount: 4
+              slot2:
+                item: empty_cup
+                amount: 1
+            result:
+              item: coffee
+              amount: 1
+  mysterious_stone:
+    display_name: display-name-mysterious_stone
+    permission: mysterious_stone
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/mysterious_stone
+    behaviours:
+      furniture:
+        gravity: false
+        light_level: 13
+
+  alchemy_candles:
+    display_name: display-name-alchemy_candles
+    permission: alchemy_candles
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/alchemy_candles
+    behaviours:
+      furniture:
+        gravity: false
+        small: true
+        light_level: 8
+  painting_burst:
+    display_name: display-name-painting_burst
+    permission: painting_burst
+    lore:
+    - '&7S5Z7 - Burst'
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/painting_burst
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: true
+        small_hitbox: false
+        hitbox:
+          length: 0.1
+          width: 1
+          height: 1
+          length_offset: 0.5
+  painting_courbet:
+    display_name: display-name-painting_courbet
+    permission: painting_courbet
+    lore:
+    - '&7S5Z7 - Courbet'
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/painting_courbet
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: true
+        small_hitbox: false
+        hitbox:
+          length: 0.1
+          width: 2
+          height: 1
+          length_offset: 0.5
+          width_offset: -0.5
+  painting_graham:
+    display_name: display-name-painting_graham
+    permission: painting_graham
+    lore:
+    - '&7S5Z7 - Graham'
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/painting_graham
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: true
+        small_hitbox: false
+        hitbox:
+          length: 0.1
+          width: 1
+          height: 2
+          length_offset: 0.5
+  painting_match:
+    display_name: display-name-painting_match
+    permission: painting_match
+    lore:
+    - '&7S5Z7 - Match'
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/painting_match
+    behaviours:
+      furniture:
+        entity: armor_stand
+        gravity: false
+        fixed_rotation: true
+        small_hitbox: false
+        hitbox:
+          length: 0.1
+          width: 2
+          height: 2
+          length_offset: 0.5
+          width_offset: -0.5
+  painting_pool:
+    display_name: display-name-painting_pool
+    permission: painting_pool
+    lore:
+    - '&7S5Z7 - Pool'
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/painting_pool
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: true
+        small_hitbox: false
+        hitbox:
+          length: 0.1
+          width: 2
+          height: 1
+          length_offset: 0.5
+          width_offset: -0.5
+  painting_skull_and_roses:
+    display_name: display-name-painting_skull_and_roses
+    permission: painting_skull_and_roses
+    lore:
+    - '&7S5Z7 - Skull and roses'
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/painting_skull_and_roses
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: true
+        small_hitbox: false
+        hitbox:
+          length: 0.1
+          width: 2
+          height: 2
+          length_offset: 0.5
+          width_offset: -0.5
+  painting_stage:
+    display_name: display-name-painting_stage
+    permission: painting_stage
+    lore:
+    - '&7S5Z7 - Stage'
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/painting_stage
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: true
+        small_hitbox: false
+        hitbox:
+          length: 0.1
+          width: 2
+          height: 2
+          length_offset: 0.5
+          width_offset: -0.5
+  painting_void:
+    display_name: display-name-painting_void
+    permission: painting_void
+    lore:
+    - '&7S5Z7 - Void'
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/painting_void
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: true
+        small_hitbox: false
+        hitbox:
+          length: 0.1
+          width: 2
+          height: 2
+          length_offset: 0.5
+          width_offset: -0.5
+  painting_wanderer:
+    display_name: display-name-painting_wanderer
+    permission: painting_wanderer
+    lore:
+    - '&7S5Z7 - Wanderer'
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/painting_wanderer
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: true
+        small_hitbox: false
+        hitbox:
+          length: 0.1
+          width: 1
+          height: 2
+          length_offset: 0.5
+  white_bar_chair:
+    display_name: display-name-white_bar_chair
+    permission: white_bar_chair
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/white_bar_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+      furniture_sit:
+        sit_height: 0.9
+  orange_bar_chair:
+    display_name: display-name-orange_bar_chair
+    permission: orange_bar_chair
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/orange_bar_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+      furniture_sit:
+        sit_height: 0.9
+  magenta_bar_chair:
+    display_name: display-name-magenta_bar_chair
+    permission: magenta_bar_chair
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/magenta_bar_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+      furniture_sit:
+        sit_height: 0.9
+  light_blue_bar_chair:
+    display_name: display-name-light_blue_bar_chair
+    permission: light_blue_bar_chair
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/light_blue_bar_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+      furniture_sit:
+        sit_height: 0.9
+  yellow_bar_chair:
+    display_name: display-name-yellow_bar_chair
+    permission: yellow_bar_chair
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/yellow_bar_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+      furniture_sit:
+        sit_height: 0.9
+  lime_bar_chair:
+    display_name: display-name-lime_bar_chair
+    permission: lime_bar_chair
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/lime_bar_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+      furniture_sit:
+        sit_height: 0.9
+  pink_bar_chair:
+    display_name: display-name-pink_bar_chair
+    permission: pink_bar_chair
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/pink_bar_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+      furniture_sit:
+        sit_height: 0.9
+  gray_bar_chair:
+    display_name: display-name-gray_bar_chair
+    permission: gray_bar_chair
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/gray_bar_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+      furniture_sit:
+        sit_height: 0.9
+  light_gray_bar_chair:
+    display_name: display-name-light_gray_bar_chair
+    permission: light_gray_bar_chair
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/light_gray_bar_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+      furniture_sit:
+        sit_height: 0.9
+  cyan_bar_chair:
+    display_name: display-name-cyan_bar_chair
+    permission: cyan_bar_chair
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/cyan_bar_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+      furniture_sit:
+        sit_height: 0.9
+  purple_bar_chair:
+    display_name: display-name-purple_bar_chair
+    permission: purple_bar_chair
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/purple_bar_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+      furniture_sit:
+        sit_height: 0.9
+  blue_bar_chair:
+    display_name: display-name-blue_bar_chair
+    permission: blue_bar_chair
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/blue_bar_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+      furniture_sit:
+        sit_height: 0.9
+  brown_bar_chair:
+    display_name: display-name-brown_bar_chair
+    permission: brown_bar_chair
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/brown_bar_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+      furniture_sit:
+        sit_height: 0.9
+  green_bar_chair:
+    display_name: display-name-green_bar_chair
+    permission: green_bar_chair
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/green_bar_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+      furniture_sit:
+        sit_height: 0.9
+  red_bar_chair:
+    display_name: display-name-red_bar_chair
+    permission: red_bar_chair
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/red_bar_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+      furniture_sit:
+        sit_height: 0.9
+  black_bar_chair:
+    display_name: display-name-black_bar_chair
+    permission: black_bar_chair
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/black_bar_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+      furniture_sit:
+        sit_height: 0.9
+  white_wood_chair:
+    display_name: display-name-white_wood_chair
+    permission: white_wood_chair
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/white_wood_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+      furniture_sit:
+        sit_height: 0.45
+  orange_wood_chair:
+    display_name: display-name-orange_wood_chair
+    permission: orange_wood_chair
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/orange_wood_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+      furniture_sit:
+        sit_height: 0.45
+  magenta_wood_chair:
+    display_name: display-name-magenta_wood_chair
+    permission: magenta_wood_chair
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/magenta_wood_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+      furniture_sit:
+        sit_height: 0.45
+  light_blue_wood_chair:
+    display_name: display-name-light_blue_wood_chair
+    permission: light_blue_wood_chair
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/light_blue_wood_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+      furniture_sit:
+        sit_height: 0.45
+  yellow_wood_chair:
+    display_name: display-name-yellow_wood_chair
+    permission: yellow_wood_chair
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/yellow_wood_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+      furniture_sit:
+        sit_height: 0.45
+  lime_wood_chair:
+    display_name: display-name-lime_wood_chair
+    permission: lime_wood_chair
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/lime_wood_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+      furniture_sit:
+        sit_height: 0.45
+  pink_wood_chair:
+    display_name: display-name-pink_wood_chair
+    permission: pink_wood_chair
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/pink_wood_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+      furniture_sit:
+        sit_height: 0.45
+  gray_wood_chair:
+    display_name: display-name-gray_wood_chair
+    permission: gray_wood_chair
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/gray_wood_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+      furniture_sit:
+        sit_height: 0.45
+  light_gray_wood_chair:
+    display_name: display-name-light_gray_wood_chair
+    permission: light_gray_wood_chair
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/light_gray_wood_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+      furniture_sit:
+        sit_height: 0.45
+  cyan_wood_chair:
+    display_name: display-name-cyan_wood_chair
+    permission: cyan_wood_chair
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/cyan_wood_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+      furniture_sit:
+        sit_height: 0.45
+  purple_wood_chair:
+    display_name: display-name-purple_wood_chair
+    permission: purple_wood_chair
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/purple_wood_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+      furniture_sit:
+        sit_height: 0.45
+  blue_wood_chair:
+    display_name: display-name-blue_wood_chair
+    permission: blue_wood_chair
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/blue_wood_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+      furniture_sit:
+        sit_height: 0.45
+  brown_wood_chair:
+    display_name: display-name-brown_wood_chair
+    permission: brown_wood_chair
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/brown_wood_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+      furniture_sit:
+        sit_height: 0.45
+  green_wood_chair:
+    display_name: display-name-green_wood_chair
+    permission: green_wood_chair
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/green_wood_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+      furniture_sit:
+        sit_height: 0.45
+  red_wood_chair:
+    display_name: display-name-red_wood_chair
+    permission: red_wood_chair
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/red_wood_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+      furniture_sit:
+        sit_height: 0.45
+  black_wood_chair:
+    display_name: display-name-black_wood_chair
+    permission: black_wood_chair
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/black_wood_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+      furniture_sit:
+        sit_height: 0.45
+  dark_throne:
+    display_name: display-name-dark_throne
+    permission: dark_throne
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/dark_throne
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        hitbox:
+          length: 3
+          width: 3
+          height: 3
+      furniture_sit:
+        sit_height: 3.2
+  school_chair:
+    display_name: display-name-school_chair
+    permission: school_chair
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/school_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+        hitbox:
+          length: 2
+          width: 2
+          height: 1
+          length_offset: -1
+      furniture_sit:
+        sit_height: 0.6
+  school_chair_lazy:
+    display_name: display-name-school_chair_lazy
+    permission: school_chair_lazy
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/school_chair_lazy
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+        hitbox:
+          length: 2
+          width: 2
+          height: 1
+          length_offset: -1
+      furniture_sit:
+        sit_height: 0.6
+  white_chandeliers:
+    display_name: display-name-white_chandeliers
+    permission: white_chandeliers
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/white_chandeliers
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+        light_level: 12
+  black_chandeliers:
+    display_name: display-name-black_chandeliers
+    permission: black_chandeliers
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/black_chandeliers
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+        light_level: 12
+  black_and_red_chandeliers:
+    display_name: display-name-black_and_red_chandeliers
+    permission: black_and_red_chandeliers
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/black_and_red_chandeliers
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+        light_level: 12
+  small_fountain:
+    display_name: display-name-small_fountain
+    permission: small_fountain
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/small_fountain
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+        solid: true
+  lit_campfire:
+    display_name: display-name-lit_campfire
+    permission: lit_campfire
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/lit_campfire
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+        light_level: 15
+  decorative_pumpkin:
+    display_name: display-name-decorative_pumpkin
+    permission: decorative_pumpkin
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/decorative_pumpkin
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+        light_level: 15
+        solid: true
+  christmas_tree:
+    display_name: display-name-christmas_tree
+    permission: christmas_tree
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/christmas_tree
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+
+        light_level: 15
+  christmas_candle:
+    display_name: display-name-christmas_candle
+    permission: christmas_candle
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/christmas_candle
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small: true
+        light_level: 8
+  decorative_candy_cane:
+    display_name: display-name-decorative_candy_cane
+    permission: decorative_candy_cane
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/decorative_candy_cane
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+
+  christmas_wreath:
+    display_name: display-name-christmas_wreath
+    permission: christmas_wreath
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/christmas_wreath
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: true
+        small: true

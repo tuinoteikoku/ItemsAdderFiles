@@ -1,0 +1,11 @@
+info:
+  namespace: slot
+
+items:
+  creeper_7:
+    display_name: creeper_7
+    resource:
+      material: wooden_sword
+      generate: true
+      textures:
+      - zugara/creeper_7.png

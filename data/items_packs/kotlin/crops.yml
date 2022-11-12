@@ -1,0 +1,34 @@
+info:
+  namespace: kotlin
+recipes:
+  crafting_table:
+    carrot_seed:
+      permission: carrot_seeds
+      enabled: true 
+      pattern:
+      - XXX
+      - XSX
+      - XXX
+      ingredients:
+        S: CARROT
+      result:
+        item: kotlin:carrot_seeds
+        amount: 1
+items:
+  carrot_seeds:
+    display_name: ニンジンの種
+    permission: carrot_seeds
+    resource:
+      material: WHEAT_SEEDS
+      generate: true
+      textures:
+      - item/tomato_seeds.png
+    specific_properties:
+      seed:
+        crop_block: CARROTS
+        result:
+          result_1:
+            item: CARROT
+            min_amount: 1
+            max_amount: 3
+            chance: 100

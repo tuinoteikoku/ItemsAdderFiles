@@ -1,0 +1,1 @@
+{"parent":"minecraft:block/quartz_pillar","overrides":[{"predicate":{"custom_model_data":10000},"model":"small_blocks:block/small_quartz_pillar"},{"predicate":{"custom_model_data":10001},"model":"minecraft:item/quartz_pillar"}]}

@@ -1,0 +1,28 @@
+info:
+  namespace: itemsadder
+recipes:
+items:
+  red_paper:
+    display_name: display-name-red_paper
+    permission: red_paper
+    resource:
+      material: paper
+      generate: false
+      model_path : item/sakuyou_custom/red_paper
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 0.1
+    item_flags:
+    - HIDE_ATTRIBUTES
+    events_cooldown: 1200
+    events:
+      interact:
+        entity:
+          target_potion_effect:
+            type: SLOWNESS
+            duration: 70
+            amplifier: 7
+          target_potion_effect:
+            type: BLINDNESS
+            duration: 70
+            amplifier: 7

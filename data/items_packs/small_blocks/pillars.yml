@@ -1,0 +1,16 @@
+info:
+  namespace: small_blocks
+items:
+  small_quartz_pillar:
+    enabled: true
+    display_name: display-name-small_quartz_pillar 
+    resource:
+      material: QUARTZ_PILLAR
+      generate: false
+      model_path: block/small_quartz_pillar
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_TRANSPARENT
+          break_particles: BLOCK
+        cancel_drop: false

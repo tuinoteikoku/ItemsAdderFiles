@@ -1,0 +1,96 @@
+info:
+  namespace: nuitem
+
+items:
+  rose_quartz:
+    display_name: ローズクォーツ
+    permission: rose_quartz
+    resource:
+      material: EMERALD
+      generate: true
+      textures:
+      - jewels/rose_quartz.png
+
+  aquamarine:
+    display_name: アクアマリン
+    permission: aquamarine
+    resource:
+      material: EMERALD
+      generate: true
+      textures:
+      - jewels/aquamarine.png
+
+
+  citrine:
+    display_name: シトリン
+    permission: citrine
+    resource:
+      material: EMERALD
+      generate: true
+      textures:
+      - jewels/citrine.png
+
+  amber:
+    display_name: コハク
+    permission: amber
+    resource:
+      material: EMERALD
+      generate: true
+      textures:
+      - jewels/amber.png
+
+  spinel:
+    display_name: スピネル
+    permission: spinel
+    resource:
+      material: EMERALD
+      generate: true
+      textures:
+      - jewels/spinel.png
+
+  fluorite:
+    display_name: フローライト
+    permission: fluorite
+    resource:
+      material: EMERALD
+      generate: true
+      textures:
+      - jewels/fluorite.png
+
+  blue_sapphire:
+    display_name: ブルーサファイア
+    permission: blue_sapphire
+    resource:
+      material: EMERALD
+      generate: true
+      textures:
+      - jewels/blue_sapphire.png
+
+  morganite:
+    display_name: モルガナイト
+    permission: morganite
+    resource:
+      material: EMERALD
+      generate: true
+      textures:
+      - jewels/morganite.png
+
+  pink_zircon:
+    display_name: ピンクジルコン
+    permission: pink_zircon
+    resource:
+      material: EMERALD
+      generate: true
+      textures:
+      - jewels/pink_zircon.png
+
+  super_jewel:
+    display_name: なんかすごい宝石
+    permission: super_jewel
+    resource:
+      material: EMERALD
+      generate: true
+      textures:
+      - jewels/super_jewel.png
+
+

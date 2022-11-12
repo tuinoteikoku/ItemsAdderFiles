@@ -1,0 +1,10 @@
+info:
+  namespace: small_blocks
+categories:
+  small_blocks:
+    enabled: true
+    icon: "small_blocks:small_quartz_pillar"
+    name: display-category-small_blocks
+    permission: 'ia.menu.small_blocks'
+    items:
+      - "small_blocks:small_quartz_pillar"

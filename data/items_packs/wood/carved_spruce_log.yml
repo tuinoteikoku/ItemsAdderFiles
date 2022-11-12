@@ -1,0 +1,106 @@
+info:
+  namespace: wood
+items:
+  carved_spruce_log:
+    display_name: Carved Spruce Log
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - blocks/carved_spruce_log_top.png
+      - blocks/carved_spruce_log.png
+      - blocks/carved_spruce_log.png
+      - blocks/carved_spruce_log.png
+      - blocks/carved_spruce_log_top.png
+      - blocks/carved_spruce_log.png
+    specific_properties:
+      block:
+        hardness: 2
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        sound:
+          break:
+            name: BLOCK_WOOD_BREAK
+            volume: 1
+            pitch: 0.9
+          place:
+            name: BLOCK_WOOD_PLACE
+            volume: 1
+            pitch: 0.9
+  carved_spruce_log_x:
+    display_name: Carved Spruce Log
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - blocks/carved_spruce_log_rotated.png
+      - blocks/carved_spruce_log_top.png
+      - blocks/carved_spruce_log_rotated.png
+      - blocks/carved_spruce_log_rotated.png
+      - blocks/carved_spruce_log_rotated.png
+      - blocks/carved_spruce_log_top.png
+    specific_properties:
+      block:
+        hardness: 2
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: true
+        sound:
+          break:
+            name: BLOCK_WOOD_BREAK
+            volume: 1
+            pitch: 0.9
+          place:
+            name: BLOCK_WOOD_PLACE
+            volume: 1
+            pitch: 0.9
+  carved_spruce_log_z:
+    display_name: Carved Spruce Log
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - blocks/carved_spruce_log.png
+      - blocks/carved_spruce_log_rotated.png
+      - blocks/carved_spruce_log_top.png
+      - blocks/carved_spruce_log_top.png
+      - blocks/carved_spruce_log.png
+      - blocks/carved_spruce_log_rotated.png
+    specific_properties:
+      block:
+        hardness: 2
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: true
+        sound:
+          break:
+            name: BLOCK_WOOD_BREAK
+            volume: 1
+            pitch: 0.9
+          place:
+            name: BLOCK_WOOD_PLACE
+            volume: 1
+            pitch: 0.9
+loots:
+  blocks:
+    carved_spruce_log_x:
+      type: wood:carved_spruce_log_x
+      items:
+        result_1:
+          item: wood:carved_spruce_log
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+          ignore_fortune: true
+    carved_spruce_log_z:
+      type: wood:carved_spruce_log_z
+      items:
+        result_1:
+          item: wood:carved_spruce_log
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+          ignore_fortune: true

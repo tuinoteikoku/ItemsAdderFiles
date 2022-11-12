@@ -1,0 +1,34 @@
+info:
+  namespace: ia_various_configs
+categories:
+  nuitem:
+    enabled: true
+    icon: nuitem:rose_quartz
+    name: display-category-nuitem
+    permission: ia.menu.nuitem
+    font_image:
+      name: "mcguis:blank_menu"
+      x_position_pixels: -16
+    title_position_pixels: 0
+    items:
+      - nuitem:rose_quartz
+      - nuitem:aquamarine
+      - nuitem:citrine
+      - nuitem:amber
+      - nuitem:spinel
+      - nuitem:fluorite
+      - nuitem:blue_sapphire
+      - nuitem:morganite
+      - nuitem:pink_zircon
+      - nuitem:super_jewel
+  kotlin:
+    enabled: true
+    icon: DIAMOND_BLOCK
+    name: display-category-kotlin
+    permission: ia.menu.kotlin
+    font_image:
+      name: "mcguis:blank_menu"
+      x_position_pixels: -16
+    title_position_pixels: 0
+    items:
+      - kotlin:carrot_seeds

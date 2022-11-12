@@ -1,0 +1,45 @@
+info:
+  namespace: furnituresplusfree
+categories:
+  furnituresplusfree:
+    enabled: true
+    skip_if_already: false
+    icon: "furnituresplusfree:cyan_lowtable"
+    name: Furnitures plus - Free Version
+    permission: ia.menu.furnituresplus
+    items:
+      - "furnituresplusfree:fabric_machine_plus"
+      - "furnituresplusfree:red_wooden_sofa_left"
+      - "furnituresplusfree:red_wooden_sofa_right"
+      - "furnituresplusfree:red_lowtable" 
+      - "furnituresplusfree:red_wooden_lamp" 
+     #######
+      - "furnituresplusfree:white_wooden_sofa_left"
+      - "furnituresplusfree:white_wooden_sofa_right"
+      - "furnituresplusfree:white_wooden_lowtable"  
+      - "furnituresplusfree:white_wooden_lamp"   
+     #######      
+      - "furnituresplusfree:cyan_wooden_sofa_left"            
+      - "furnituresplusfree:cyan_wooden_sofa_right"              
+      - "furnituresplusfree:cyan_lowtable"                   
+      - "furnituresplusfree:cyan_wooden_lamp"          
+     #######      
+      - "furnituresplusfree:gray_wooden_sofa_left"            
+      - "furnituresplusfree:gray_wooden_sofa_right"      
+      - "furnituresplusfree:gray_wooden_lowtable"  
+      - "furnituresplusfree:gray_wooden_lamp" 
+     #######      
+      - "furnituresplusfree:iron_sofa_left"            
+      - "furnituresplusfree:iron_sofa_right"      
+      - "furnituresplusfree:iron_lowtable" 
+      - "furnituresplusfree:iron_lamp" 
+     #######
+      - "furnituresplusfree:amethyst_sofa_left" 
+      - "furnituresplusfree:amethyst_sofa_right" 
+      - "furnituresplusfree:amethyst_lowtable" 
+      - "furnituresplusfree:amethyst_lamp" 
+     #######
+
+      
+ 
+ 

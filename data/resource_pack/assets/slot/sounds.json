@@ -1,0 +1,38 @@
+{
+	"bgm.tousen_1":{
+		"sounds":[
+			"slot:bgm/tousen_1"		]
+	},
+	"bgm.trigger":{
+		"sounds":[
+			"slot:bgm/trigger"		]
+	},
+	"se.tenpai":{
+		"sounds":[
+			"slot:se/tenpai"		]
+	},
+	"se.fanfare":{
+		"sounds":[
+			"slot:se/fanfare"		]
+	},
+	"bgm.tousen_1_last":{
+		"sounds":[
+			"slot:bgm/tousen_1_last"		]
+	},
+	"bgm.bunbunbun":{
+		"sounds":[
+			"slot:bgm/bunbunbun"		]
+	},
+	"bgm.bunbunbun_last":{
+		"sounds":[
+			"slot:bgm/bunbunbun_last"		]
+	},
+	"se.reload":{
+		"sounds":[
+			"slot:se/reload"		]
+		},
+	"se.hazure":{
+		"sounds":[
+			"slot:se/hazure"		]
+		}
+}

@@ -1,0 +1,16 @@
+info:
+  namespace: itemsadder
+items:
+  banana:
+    display_name: display-name-banana
+    permission: banana
+    resource:
+      material: APPLE
+      generate: true
+      textures:
+      - item/banana.png
+    events:
+      eat:
+        feed:
+          amount: 5
+          saturation: 1

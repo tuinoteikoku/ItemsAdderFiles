@@ -1,0 +1,11 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "item/rotten_flesh"
+  },
+  "overrides": [
+    { "predicate": {"custom_model_data": 1}, "model": "item/week_zombie_arm"},
+    { "predicate": {"custom_model_data": 2}, "model": "item/week_zombie_leg"},
+    { "predicate": {"custom_model_data": 3}, "model": "item/week_zombie_nanika"}
+  ]
+}

@@ -1,0 +1,895 @@
+info:
+  namespace: "furnituresplusfree"
+recipes:
+  crafting_table:
+    red_wooden_sofa_left:
+      permission: itemsadder.furnituresplus    
+      enabled: true
+      ingredients:
+        W: "furnituresplusfree:redfabric"
+        P: "OAK_PLANKS"
+        S: "STICK"
+      pattern:
+        - "WXX"
+        - "WWW"
+        - "PSP"
+      result:
+        item: "furnituresplusfree:red_wooden_sofa_left"
+        amount: 1
+        
+    red_wooden_sofa_right:
+      permission: itemsadder.furnituresplus    
+      enabled: true
+      ingredients:
+        W: "furnituresplusfree:redfabric"
+        P: "OAK_PLANKS"
+        S: "STICK"
+      pattern:
+        - "XXW"
+        - "WWW"
+        - "PSP"
+      result:
+        item: "furnituresplusfree:red_wooden_sofa_right"
+        amount: 1
+    red_lowtable:
+      permission: itemsadder.furnituresplus    
+      enabled: true
+      ingredients:
+        P: "OAK_PLANKS"
+        S: "STICK"
+        L: "furnituresplusfree:redfabric"
+      pattern:
+        - "XLX"
+        - "PPP"
+        - "SXS"
+      result:
+        item: "furnituresplusfree:red_lowtable"
+        amount: 1 
+
+    red_wooden_lamp:
+      permission: itemsadder.furnituresplus    
+      enabled: true
+      ingredients:
+        S: "STICK"
+        L: "furnituresplusfree:redfabric"
+        T: "TORCH"
+      pattern:
+        - "XXX"
+        - "LTL"
+        - "XSX"
+      result:
+        item: "furnituresplusfree:red_wooden_lamp"
+        amount: 1 
+
+  
+ ####       
+    white_wooden_sofa_left:
+      permission: itemsadder.furnituresplus    
+      enabled: true
+      ingredients:
+        W: "furnituresplusfree:yellowfabric"
+        P: "SPRUCE_PLANKS"
+        S: "STICK"
+      pattern:
+        - "XWX"
+        - "WWW"
+        - "PSP"
+      result:
+        item: "furnituresplusfree:white_wooden_sofa_left"
+        amount: 1
+        
+    white_wooden_sofa_right:
+      permission: itemsadder.furnituresplus    
+      enabled: true
+      ingredients:
+        W: "furnituresplusfree:yellowfabric"
+        P: "SPRUCE_PLANKS"
+        S: "STICK"
+      pattern:
+        - "XXW"
+        - "WWW"
+        - "PSP"
+      result:
+        item: "furnituresplusfree:white_wooden_sofa_right"
+        amount: 1
+  
+
+    white_wooden_lowtable:
+      permission: itemsadder.furnituresplus    
+      enabled: true
+      ingredients:
+        P: "SPRUCE_PLANKS"
+        S: "STICK"
+        L: "furnituresplusfree:yellowfabric"
+      pattern:
+        - "XLX"
+        - "PPP"
+        - "SXS"
+      result:
+        item: "furnituresplusfree:white_wooden_lowtable"
+        amount: 1         
+
+    white_wooden_lamp:
+      permission: itemsadder.furnituresplus    
+      enabled: true
+      ingredients:
+        S: "STICK"
+        L: "furnituresplusfree:yellowfabric"
+        T: "TORCH"
+      pattern:
+        - "XXX"
+        - "LTL"
+        - "XSX"
+      result:
+        item: "furnituresplusfree:white_wooden_lamp"
+        amount: 1   
+
+####        
+    cyan_wooden_sofa_left:
+      permission: itemsadder.furnituresplus    
+      enabled: true
+      ingredients:
+        W: "furnituresplusfree:cyansummerfabric"
+        P: "JUNGLE_PLANKS"
+        S: "STICK"
+      pattern:
+        - "WXX"
+        - "WWW"
+        - "PSP"
+      result:
+        item: "furnituresplusfree:cyan_wooden_sofa_left"
+        amount: 1        
+     
+    cyan_wooden_sofa_right:
+      permission: itemsadder.furnituresplus    
+      enabled: true
+      ingredients:
+        W: "furnituresplusfree:cyansummerfabric"
+        P: "JUNGLE_PLANKS"
+        S: "STICK"
+      pattern:
+        - "XXW"
+        - "WWW"
+        - "PSP"
+      result:
+        item: "furnituresplusfree:cyan_wooden_sofa_right"
+        amount: 1         
+ 
+    cyan_lowtable:
+      permission: itemsadder.furnituresplus    
+      enabled: true
+      ingredients:
+        P: "JUNGLE_PLANKS"
+        S: "STICK"
+        L: "furnituresplusfree:cyansummerfabric"
+      pattern:
+        - "XLX"
+        - "PPP"
+        - "SXS"
+      result:
+        item: "furnituresplusfree:cyan_lowtable"
+        amount: 1 
+ 
+    cyan_wooden_lamp:
+      permission: itemsadder.furnituresplus    
+      enabled: true
+      ingredients:
+        S: "STICK"
+        L: "furnituresplusfree:cyansummerfabric"
+        T: "TORCH"
+      pattern:
+        - "XXX"
+        - "LTL"
+        - "XSX"
+      result:
+        item: "furnituresplusfree:cyan_wooden_lamp"
+        amount: 1 
+ 
+####        
+ 
+    gray_wooden_sofa_right:
+      permission: itemsadder.furnituresplus    
+      enabled: true
+      ingredients:
+        W: "furnituresplusfree:acaciagray"
+        P: "ACACIA_PLANKS"
+        S: "STICK"
+      pattern:
+        - "XXW"
+        - "WWW"
+        - "PSP"
+      result:
+        item: "furnituresplusfree:gray_wooden_sofa_right"
+        amount: 1
+    gray_wooden_sofa_left:
+      permission: itemsadder.furnituresplus    
+      enabled: true
+      ingredients:
+        W: "furnituresplusfree:acaciagray"
+        P: "ACACIA_PLANKS"
+        S: "STICK"
+      pattern:
+        - "WXX"
+        - "WWW"
+        - "PSP"
+      result:
+        item: "furnituresplusfree:gray_wooden_sofa_left"
+        amount: 1
+        
+    gray_wooden_lowtable:
+      permission: itemsadder.furnituresplus    
+      enabled: true
+      ingredients:
+        P: "ACACIA_PLANKS"
+        S: "STICK"      
+        L: "furnituresplusfree:acaciagray"
+      pattern:
+        - "XLX"
+        - "PPP"
+        - "PSP"
+      result:
+        item: "furnituresplusfree:gray_wooden_lowtable"
+        amount: 1         
+        
+ 
+    gray_wooden_lamp:
+      permission: itemsadder.furnituresplus    
+      enabled: true
+      ingredients:
+        S: "STICK"
+        L: "furnituresplusfree:acaciagray"
+        T: "TORCH"
+      pattern:
+        - "XXX"
+        - "LTL"
+        - "XSX"
+      result:
+        item: "furnituresplusfree:gray_wooden_lamp"
+        amount: 1    
+ 
+####
+
+    iron_sofa_left:
+      permission: itemsadder.furnituresplus    
+      enabled: true
+      ingredients:
+        W: "furnituresplusfree:blackfabric"
+        P: "IRON_INGOT"
+        S: "STICK"
+      pattern:
+        - "WXX"
+        - "WWW"
+        - "PSP"
+      result:
+        item: "furnituresplusfree:iron_sofa_left"
+        amount: 1             
+    iron_sofa_right:
+      permission: itemsadder.furnituresplus    
+      enabled: true
+      ingredients:
+        W: "furnituresplusfree:blackfabric"
+        P: "IRON_INGOT"
+        S: "STICK"
+      pattern:
+        - "XXW"
+        - "WWW"
+        - "PSP"
+      result:
+        item: "furnituresplusfree:iron_sofa_right"
+        amount: 1         
+      
+     
+    iron_lowtable:
+      permission: itemsadder.furnituresplus    
+      enabled: true
+      ingredients:
+        P: "IRON_INGOT"
+        S: "STICK"      
+        L: "furnituresplusfree:blackfabric"
+      pattern:
+        - "XLX"
+        - "PPP"
+        - "PSP"
+      result:
+        item: "furnituresplusfree:iron_lowtable"
+        amount: 1         
+
+    iron_lamp:
+      permission: itemsadder.furnituresplus    
+      enabled: true
+      ingredients:
+        S: "STICK"
+        L: "furnituresplusfree:blackfabric"
+        T: "TORCH"
+      pattern:
+        - "XXX"
+        - "LTL"
+        - "XSX"
+      result:
+        item: "furnituresplusfree:iron_lamp"
+        amount: 1    
+ 
+        
+        
+####
+    amethyst_sofa_left:
+      permission: itemsadder.furnituresplus    
+      enabled: true
+      ingredients:
+        W: "furnituresplusfree:amethystfabric"
+        P: "QUARTZ_PILLAR"
+      pattern:
+        - "WXX"
+        - "WWW"
+        - "PPP"
+      result:
+        item: "furnituresplusfree:amethyst_sofa_left"
+        amount: 1    
+    amethyst_sofa_right:
+      permission: itemsadder.furnituresplus    
+      enabled: true
+      ingredients:
+        W: "furnituresplusfree:amethystfabric"
+        P: "QUARTZ_PILLAR"
+      pattern:
+        - "XXW"
+        - "WWW"
+        - "PPP"
+      result:
+        item: "furnituresplusfree:amethyst_sofa_right"
+        amount: 1    
+
+    amethyst_lowtable:
+      permission: itemsadder.furnituresplus    
+      enabled: true
+      ingredients:
+        P: "QUARTZ_PILLAR"  
+        L: "furnituresplusfree:amethystfabric"
+      pattern:
+        - "XLX"
+        - "PPP"
+        - "PXP"
+      result:
+        item: "furnituresplusfree:amethyst_lowtable"
+        amount: 1                 
+
+    amethyst_lamp:
+      permission: itemsadder.furnituresplus    
+      enabled: true
+      ingredients:
+        S: "QUARTZ_PILLAR"
+        L: "furnituresplusfree:amethystfabric"
+        T: "TORCH"
+      pattern:
+        - "XXX"
+        - "LTL"
+        - "XSX"
+      result:
+        item: "furnituresplusfree:amethyst_lamp"
+        amount: 1
+ 
+        
+items:
+
+  red_wooden_sofa_left:
+    display_name: "&4Red wooden sofa left"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7FurniturePlus by Yassou"
+      - "&cRed Vibe collection"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "redvibecollection/red_wooden_sofa_left"
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+      furniture_sit:
+        sit_height: 0.8
+        
+
+        
+  red_wooden_sofa_right:
+    display_name: "&4Red wooden sofa right"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7FurniturePlus by Yassou"
+      - "&cRed Vibe collection"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "redvibecollection/red_wooden_sofa_right"
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+      furniture_sit:
+        sit_height: 0.8
+ 
+  red_lowtable:
+    display_name: "&4Red Oak coffee table"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7FurniturePlus by Yassou"
+      - "&cRed Vibe collection"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "redvibecollection/red_wooden_lowtable"
+    behaviours:
+      furniture:   
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+
+  red_wooden_lamp:
+    display_name: "&4Red oak lamp"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7FurniturePlus by Yassou"
+      - "&cRed Vibe collection"
+    resource:
+      material: "TORCH"
+      generate: false
+      model_path: "redvibecollection/red_wooden_lamp"
+    behaviours:
+      furniture: 
+        fixed_rotation: false            
+        solid: false
+        small: false
+        light_level: 13        
+        placeable_on:
+          walls: true
+          ceiling: false
+          floor: true
+
+  white_wooden_sofa_left:
+    display_name: "&rWhite wooden sofa left"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7FurniturePlus by Yassou"
+      - "&fBlanka collection"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "blankacollection/white_wooden_sofa_left"
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+      furniture_sit:
+        sit_height: 0.8
+        
+
+  white_wooden_sofa_right:
+    display_name: "&rWhite wooden sofa right"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7FurniturePlus by Yassou"
+      - "&7Goes Left and right"
+      - "&fBlanka collection"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "blankacollection/white_wooden_sofa_right"
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+      furniture_sit:
+        sit_height: 0.8
+
+  white_wooden_lowtable:
+    display_name: "Spruce coffee table"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7FurniturePlus by Yassou"
+      - "&fBlanka collection"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "blankacollection/white_wooden_lowtable"
+    behaviours:
+      furniture:   
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true   
+
+  white_wooden_lamp:
+    display_name: "Spruce lamp"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7FurniturePlus by Yassou"
+      - "&fBlanka collection"
+    resource:
+      material: "TORCH"
+      generate: false
+      model_path: "blankacollection/white_wooden_lamp"
+    behaviours:
+      furniture: 
+        fixed_rotation: false            
+        solid: false
+        small: false
+        light_level: 13        
+        placeable_on:
+          walls: true
+          ceiling: false
+          floor: true     
+    
+  cyan_wooden_sofa_left:
+    display_name: "&3Cyan wooden sofa left"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7FurniturePlus by Yassou"
+      - "&bSummer collection"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "summercollection/cyan_wooden_sofa_left"
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+      furniture_sit:
+        sit_height: 0.8
+
+  cyan_wooden_sofa_right:
+    display_name: "&3Cyan wooden sofa right"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7FurniturePlus by Yassou"
+      - "&bJungle Summer collection"      
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "summercollection/cyan_wooden_sofa_right"
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+      furniture_sit:
+        sit_height: 0.8        
+  
+  cyan_lowtable:
+    display_name: "&3Jungle coffee table"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7FurniturePlus by Yassou"
+      - "&bJungle Summer collection"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "summercollection/cyan_lowtable"
+    behaviours:
+      furniture:   
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+
+  cyan_wooden_lamp:
+    display_name: "&3Jungle cyan lamp"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7FurniturePlus by Yassou"
+      - "&bJungle Summer collection"
+    resource:
+      material: "TORCH"
+      generate: false
+      model_path: "summercollection/cyan_wooden_lamp"
+    behaviours:
+      furniture: 
+        fixed_rotation: false            
+        solid: false
+        small: false
+        light_level: 13        
+        placeable_on:
+          walls: true
+          ceiling: false
+          floor: true
+
+ 
+####          
+          
+  gray_wooden_sofa_left:
+    display_name: "&6Gray wooden sofa left"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7FurniturePlus by Yassou"
+      - "&eAcacia Gray collection"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "acaciagraycollection/gray_wooden_sofa_left"
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+      furniture_sit:
+        sit_height: 0.8
+
+  gray_wooden_sofa_right:
+    display_name: "&6Gray wooden sofa right"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7FurniturePlus by Yassou"
+      - "&eAcacia Gray collection"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "acaciagraycollection/gray_wooden_sofa_right"
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+      furniture_sit:
+        sit_height: 0.8
+
+ 
+  gray_wooden_lowtable:
+    display_name: "&6Acacia coffee table"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7FurniturePlus by Yassou"
+      - "&eAcacia Gray collection"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "acaciagraycollection/gray_wooden_lowtable"
+    behaviours:
+      furniture:   
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+        
+       
+ 
+  gray_wooden_lamp:
+    display_name: "&6Gray Acacia lamp"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7FurniturePlus by Yassou"
+      - "&eAcacia Gray collection"
+    resource:
+      material: "TORCH"
+      generate: false
+      model_path: "acaciagraycollection/gray_wooden_lamp"
+    behaviours:
+      furniture: 
+        fixed_rotation: false            
+        solid: false
+        small: false
+        light_level: 13        
+        placeable_on:
+          walls: true
+          ceiling: false
+          floor: true
+
+####        
+  iron_sofa_left:
+    display_name: "&7&lIron sofa left"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7FurniturePlus by Yassou"
+      - "&7&lSteel collection"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "steelcollection/iron_sofa_left"
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+      furniture_sit:
+        sit_height: 0.8
+
+  iron_sofa_right:
+    display_name: "&7&lIron sofa right"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7FurniturePlus by Yassou"
+      - "&7&lSteel collection"  
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "steelcollection/iron_sofa_right"
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+      furniture_sit:
+        sit_height: 0.8
+
+  iron_lowtable:
+    display_name: "&7&lIron coffee table"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7FurniturePlus by Yassou"
+      - "&7&lSteel collection" 
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "steelcollection/iron_lowtable"
+    behaviours:
+      furniture:   
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+         
+ 
+  iron_lamp:
+    display_name: "&7&lIron  lamp"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7FurniturePlus by Yassou"
+      - "&7&lSteel collection"     
+    resource:
+      material: "TORCH"
+      generate: false
+      model_path: "steelcollection/iron_lamp"
+    behaviours:
+      furniture: 
+        fixed_rotation: false            
+        solid: false
+        small: false
+        light_level: 13        
+        placeable_on:
+          walls: true
+          ceiling: false
+          floor: true
+ 
+####
+  amethyst_sofa_left:
+    display_name: "&5Amethyst sofa left"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7FurniturePlus by Yassou"
+      - "&9Amethyst Collection"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "amethystcollection/amethyst_sofa_left"
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+      furniture_sit:
+        sit_height: 0.8  
+  amethyst_sofa_right:
+    display_name: "&5Amethyst sofa right"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7FurniturePlus by Yassou"
+      - "&9Amethyst Collection"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "amethystcollection/amethyst_sofa_right"
+    behaviours:
+      furniture:
+        fixed_rotation: true      
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+      furniture_sit:
+        sit_height: 0.8  
+ 
+
+ 
+  amethyst_lowtable:
+    display_name: "&5Amethyst coffee table"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7FurniturePlus by Yassou"
+      - "&9Amethyst Collection"
+    resource:
+      material: "PAPER"
+      generate: false
+      model_path: "amethystcollection/amethyst_lowtable"
+    behaviours:
+      furniture:   
+        solid: false
+        small: false
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true        
+
+ 
+ 
+  amethyst_lamp:
+    display_name: "&5Amethyst lamp"
+    permission: itemsadder.furnituresplus
+    lore:
+      - "&7FurniturePlus by Yassou"
+      - "&9Amethyst Collection"     
+    resource:
+      material: "TORCH"
+      generate: false
+      model_path: "amethystcollection/amethyst_lamp"
+    behaviours:
+      furniture: 
+        fixed_rotation: false            
+        solid: false
+        small: false
+        light_level: 13        
+        placeable_on:
+          walls: true
+          ceiling: false
+          floor: true  
+ 
+      
+ 

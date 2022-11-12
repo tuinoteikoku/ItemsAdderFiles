@@ -1,0 +1,2635 @@
+info:
+  namespace: buildersbasics
+  credits: "Ported to ItemsAdder by LoneDev. Original work page: https://www.curseforge.com/minecraft/mc-mods/builders-basics"
+  authors: "LoneDev, equinoxrex_, i_am_arobazzz "
+items:
+  abyssal_lantern:
+    display_name: Abyssal Lantern
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/abyssal_lantern.png
+      - block/abyssal_lantern.png
+      - block/abyssal_lantern.png
+      - block/abyssal_lantern.png
+      - block/abyssal_lantern_top.png
+      - block/abyssal_lantern.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  acacia_boards:
+    display_name: Acacia Boards
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/acacia_boards.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  andesite_bricks:
+    display_name: Andesite Bricks
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/andesite_bricks.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  andesite_pillar:
+    display_name: Andesite Pillar
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/andesite_pillar.png
+      - block/andesite_pillar.png
+      - block/andesite_pillar.png
+      - block/andesite_pillar.png
+      - block/andesite_pillar_top.png
+      - block/andesite_pillar.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  birch_boards:
+    display_name: Birch Boards
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/birch_boards.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  black_purpur_block:
+    display_name: Black Purpur Block
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/black_purpur_block.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  black_terracotta_bricks:
+    display_name: Black Terracotta Bricks
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/black_terracotta_bricks.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  blue_purpur_block:
+    display_name: Blue Purpur Block
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/blue_purpur_block.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  blue_terracotta_bricks:
+    display_name: Blue Terracotta Bricks
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/blue_terracotta_bricks.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  brown_purpur_block:
+    display_name: Brown Purpur Block
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/brown_purpur_block.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  brown_terracotta_bricks:
+    display_name: Brown Terracotta Bricks
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/brown_terracotta_bricks.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  chiseled_andesite:
+    display_name: Chiseled Andesite
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/chiseled_andesite.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  chiseled_dark_prismarine:
+    display_name: Chiseled Dark Prismarine
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/chiseled_dark_prismarine.png
+      - block/chiseled_dark_prismarine.png
+      - block/chiseled_dark_prismarine.png
+      - block/chiseled_dark_prismarine.png
+      - block/chiseled_dark_prismarine_top.png
+      - block/chiseled_dark_prismarine.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  chiseled_diorite:
+    display_name: Chiseled Diorite
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/chiseled_diorite.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  chiseled_granite:
+    display_name: Chiseled Granite
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/chiseled_granite.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  chiseled_prismarine:
+    display_name: Chiseled Prismarine
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/chiseled_prismarine.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  cobblestone_bricks:
+    display_name: Cobblestone Bricks
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/cobblestone_bricks.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  cyan_purpur_block:
+    display_name: Cyan Purpur Block
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/cyan_purpur_block.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  cyan_terracotta_bricks:
+    display_name: Cyan Terracotta Bricks
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/cyan_terracotta_bricks.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  dark_oak_boards:
+    display_name: Dark Oak Boards
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/dark_oak_boards.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  dark_prismarine_bricks:
+    display_name: Dark Prismarine Bricks
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/dark_prismarine_bricks.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  dark_prismarine_pillar:
+    display_name: Dark Prismarine Pillar
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/dark_prismarine_pillar.png
+      - block/dark_prismarine_pillar.png
+      - block/dark_prismarine_pillar.png
+      - block/dark_prismarine_pillar.png
+      - block/dark_prismarine_pillar_top.png
+      - block/dark_prismarine_pillar.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  dark_prismarine_tiles:
+    display_name: Dark Prismarine Tiles
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/dark_prismarine_tiles.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  diorite_bricks:
+    display_name: Diorite Bricks
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/diorite_bricks.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  diorite_pillar:
+    display_name: Diorite Pillar
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/diorite_pillar.png
+      - block/diorite_pillar.png
+      - block/diorite_pillar.png
+      - block/diorite_pillar.png
+      - block/diorite_pillar_top.png
+      - block/diorite_pillar.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  driftwood_boards:
+    display_name: Driftwood Boards
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/driftwood_boards.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  end_stone_pillar:
+    display_name: End Stone Pillar
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/end_stone_tiles.png
+      - block/end_stone_pillar_ve.png
+      - block/end_stone_pillar_ox.png
+      - block/end_stone_pillar_in.png
+      - block/end_stone_pillar_top.png
+      - block/end_stone_pillar_fi.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  end_stone_tiles:
+    display_name: End Stone Tiles
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/end_stone_tiles.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  granite_bricks:
+    display_name: Granite Bricks
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/granite_bricks.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  granite_pillar:
+    display_name: Granite Pillar
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/granite_pillar.png
+      - block/granite_pillar.png
+      - block/granite_pillar.png
+      - block/granite_pillar.png
+      - block/granite_pillar_top.png
+      - block/granite_pillar.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  gray_purpur_block:
+    display_name: Gray Purpur Block
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/gray_purpur_block.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  gray_terracotta_bricks:
+    display_name: Gray Terracotta Bricks
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/gray_terracotta_bricks.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  green_purpur_block:
+    display_name: Green Purpur Block
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/green_purpur_block.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  green_terracotta_bricks:
+    display_name: Green Terracotta Bricks
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/green_terracotta_bricks.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  pillar_black:
+    display_name: Pillar Black
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/gtp_pillar_black.png
+      - block/gtp_pillar_black.png
+      - block/gtp_pillar_black.png
+      - block/gtp_pillar_black.png
+      - block/gtp_pillar_black_top.png
+      - block/gtp_pillar_black.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  pillar_blue:
+    display_name: Pillar Blue
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/gtp_pillar_blue.png
+      - block/gtp_pillar_blue.png
+      - block/gtp_pillar_blue.png
+      - block/gtp_pillar_blue.png
+      - block/gtp_pillar_blue_top.png
+      - block/gtp_pillar_blue.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  pillar_brown:
+    display_name: Pillar Brown
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/gtp_pillar_brown.png
+      - block/gtp_pillar_brown.png
+      - block/gtp_pillar_brown.png
+      - block/gtp_pillar_brown.png
+      - block/gtp_pillar_brown_top.png
+      - block/gtp_pillar_brown.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  pillar_cyan:
+    display_name: Pillar Cyan
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/gtp_pillar_cyan.png
+      - block/gtp_pillar_cyan.png
+      - block/gtp_pillar_cyan.png
+      - block/gtp_pillar_cyan.png
+      - block/gtp_pillar_cyan_top.png
+      - block/gtp_pillar_cyan.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  pillar_gray:
+    display_name: Pillar Gray
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/gtp_pillar_gray.png
+      - block/gtp_pillar_gray.png
+      - block/gtp_pillar_gray.png
+      - block/gtp_pillar_gray.png
+      - block/gtp_pillar_gray_top.png
+      - block/gtp_pillar_gray.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  pillar_green:
+    display_name: Pillar Green
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/gtp_pillar_green.png
+      - block/gtp_pillar_green.png
+      - block/gtp_pillar_green.png
+      - block/gtp_pillar_green.png
+      - block/gtp_pillar_green_top.png
+      - block/gtp_pillar_green.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  pillar_light_blue:
+    display_name: Pillar Light Blue
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/gtp_pillar_light_blue.png
+      - block/gtp_pillar_light_blue.png
+      - block/gtp_pillar_light_blue.png
+      - block/gtp_pillar_light_blue.png
+      - block/gtp_pillar_light_blue_top.png
+      - block/gtp_pillar_light_blue.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  pillar_light_gray:
+    display_name: Pillar Light Gray
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/gtp_pillar_light_gray.png
+      - block/gtp_pillar_light_gray.png
+      - block/gtp_pillar_light_gray.png
+      - block/gtp_pillar_light_gray.png
+      - block/gtp_pillar_light_gray_top.png
+      - block/gtp_pillar_light_gray.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  pillar_lime:
+    display_name: Pillar Lime
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/gtp_pillar_lime.png
+      - block/gtp_pillar_lime.png
+      - block/gtp_pillar_lime.png
+      - block/gtp_pillar_lime.png
+      - block/gtp_pillar_lime_top.png
+      - block/gtp_pillar_lime.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  pillar_magenta:
+    display_name: Pillar Magenta
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/gtp_pillar_magenta.png
+      - block/gtp_pillar_magenta.png
+      - block/gtp_pillar_magenta.png
+      - block/gtp_pillar_magenta.png
+      - block/gtp_pillar_magenta_top.png
+      - block/gtp_pillar_magenta.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  pillar_orange:
+    display_name: Pillar Orange
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/gtp_pillar_orange.png
+      - block/gtp_pillar_orange.png
+      - block/gtp_pillar_orange.png
+      - block/gtp_pillar_orange.png
+      - block/gtp_pillar_orange_top.png
+      - block/gtp_pillar_orange.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  pillar_pink:
+    display_name: Pillar Pink
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/gtp_pillar_pink.png
+      - block/gtp_pillar_pink.png
+      - block/gtp_pillar_pink.png
+      - block/gtp_pillar_pink.png
+      - block/gtp_pillar_pink_top.png
+      - block/gtp_pillar_pink.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  pillar_purple:
+    display_name: Pillar Purple
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/gtp_pillar_purple.png
+      - block/gtp_pillar_purple.png
+      - block/gtp_pillar_purple.png
+      - block/gtp_pillar_purple.png
+      - block/gtp_pillar_purple_top.png
+      - block/gtp_pillar_purple.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  pillar_red:
+    display_name: Pillar Red
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/gtp_pillar_red.png
+      - block/gtp_pillar_red.png
+      - block/gtp_pillar_red.png
+      - block/gtp_pillar_red.png
+      - block/gtp_pillar_red_top.png
+      - block/gtp_pillar_red.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  pillar_white:
+    display_name: Pillar White
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/gtp_pillar_white.png
+      - block/gtp_pillar_white.png
+      - block/gtp_pillar_white.png
+      - block/gtp_pillar_white.png
+      - block/gtp_pillar_white_top.png
+      - block/gtp_pillar_white.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  pillar_yellow:
+    display_name: Pillar Yellow
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/gtp_pillar_yellow.png
+      - block/gtp_pillar_yellow.png
+      - block/gtp_pillar_yellow.png
+      - block/gtp_pillar_yellow.png
+      - block/gtp_pillar_yellow_top.png
+      - block/gtp_pillar_yellow.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  infernal_lantern:
+    display_name: Infernal Lantern
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/infernal_lantern.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  jungle_boards:
+    display_name: Jungle Boards
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/jungle_boards.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  light_blue_purpur_block:
+    display_name: Light Blue Purpur Block
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/light_blue_purpur_block.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  light_blue_terracotta_bricks:
+    display_name: Light Blue Terracotta Bricks
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/light_blue_terracotta_bricks.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  light_gray_purpur_block:
+    display_name: Light Gray Purpur Block
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/light_gray_purpur_block.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  light_gray_terracotta_bricks:
+    display_name: Light Gray Terracotta Bricks
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/light_gray_terracotta_bricks.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  lime_purpur_block:
+    display_name: Lime Purpur Block
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/lime_purpur_block.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  lime_terracotta_bricks:
+    display_name: Lime Terracotta Bricks
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/lime_terracotta_bricks.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  magenta_purpur_block:
+    display_name: Magenta Purpur Block
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/magenta_purpur_block.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  magenta_terracotta_bricks:
+    display_name: Magenta Terracotta Bricks
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/magenta_terracotta_bricks.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  mossy_cobblestone_bricks:
+    display_name: Mossy Cobblestone Bricks
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/mossy_cobblestone_bricks.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  oak_boards:
+    display_name: Oak Boards
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/oak_boards.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  orange_purpur_block:
+    display_name: Orange Purpur Block
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/orange_purpur_block.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  orange_terracotta_bricks:
+    display_name: Orange Terracotta Bricks
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/orange_terracotta_bricks.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  pink_purpur_block:
+    display_name: Pink Purpur Block
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/pink_purpur_block.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  pink_terracotta_bricks:
+    display_name: Pink Terracotta Bricks
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/pink_terracotta_bricks.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  polished_stone:
+    display_name: Polished Stone
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/polished_stone.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  prismarine_pillar:
+    display_name: Prismarine Pillar
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/prismarine_pillar.png
+      - block/prismarine_pillar.png
+      - block/prismarine_pillar.png
+      - block/prismarine_pillar.png
+      - block/prismarine_pillar_top.png
+      - block/prismarine_pillar.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  prismarine_tiles:
+    display_name: Prismarine Tiles
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/prismarine_tiles.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  purple_purpur_block:
+    display_name: Purple Purpur Block
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/purple_purpur_block.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  purple_terracotta_bricks:
+    display_name: Purple Terracotta Bricks
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/purple_terracotta_bricks.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  red_purpur_block:
+    display_name: Red Purpur Block
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/red_purpur_block.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  red_terracotta_bricks:
+    display_name: Red Terracotta Bricks
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/red_terracotta_bricks.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  sandstone_pillar:
+    display_name: Sandstone Pillar
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/sandstone_pillar.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  small_andesite_bricks:
+    display_name: Small Andesite Bricks
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/small_andesite_bricks.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  small_diorite_bricks:
+    display_name: Small Diorite Bricks
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/small_diorite_bricks.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  small_end_stone_bricks:
+    display_name: Small End Stone Bricks
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/small_end_stone_bricks.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  small_granite_bricks:
+    display_name: Small Granite Bricks
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/small_granite_bricks.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  small_permafrost_bricks:
+    display_name: Small Permafrost Bricks
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/small_permafrost_bricks.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  small_stone_bricks:
+    display_name: Small Stone Bricks
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/small_stone_bricks.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  smooth_stone:
+    display_name: Smooth Stone
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/smooth_stone.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  spruce_boards:
+    display_name: Spruce Boards
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/spruce_boards.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  stone_pillar:
+    display_name: Stone Pillar
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/stone_pillar.png
+      - block/stone_pillar.png
+      - block/stone_pillar.png
+      - block/stone_pillar.png
+      - block/stone_pillar_top.png
+      - block/stone_pillar.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  terracotta_bricks:
+    display_name: Terracotta Bricks
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/terracotta_bricks.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  white_purpur_block:
+    display_name: White Purpur Block
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/white_purpur_block.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  white_terracotta_bricks:
+    display_name: White Terracotta Bricks
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/white_terracotta_bricks.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  wisteria_boards:
+    display_name: Wisteria Boards
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/wisteria_boards.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  yellow_purpur_block:
+    display_name: Yellow Purpur Block
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/yellow_purpur_block.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  yellow_terracotta_bricks:
+    display_name: Yellow Terracotta Bricks
+    permission: buildersbasics
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/yellow_terracotta_bricks.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+recipes:
+  crafting_table:
+    abyssal_lantern:
+      permission: buildersbasics.abyssal_lantern
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: SEA_LANTERN
+        C: itemsadder:chisel        
+      result:
+        item: buildersbasics:abyssal_lantern
+        amount: 1  
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 1           
+    acacia_boards:
+      permission: buildersbasics.acacia_boards
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: STRIPPED_ACACIA_WOOD
+        C: itemsadder:chisel        
+      result:
+        item: buildersbasics:acacia_boards
+        amount: 1 
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 1           
+    andesite_bricks:
+      permission: buildersbasics.andesite_bricks
+      enabled: true
+      pattern:
+      - XXX
+      - XSS
+      - XSS
+      ingredients:
+        S: POLISHED_ANDESITE        
+      result:
+        item: buildersbasics:andesite_bricks
+        amount: 4      
+    andesite_pillar:
+      permission: buildersbasics.andesite_pillar
+      enabled: true
+      pattern:
+      - XXS
+      - XCS
+      - XXS
+      ingredients:
+        S: POLISHED_ANDESITE
+        C: itemsadder:chisel        
+      result:
+        item: buildersbasics:andesite_pillar
+        amount: 3  
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 2          
+    birch_boards:
+      permission: buildersbasics.birch_boards
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: STRIPPED_BIRCH_WOOD
+        C: itemsadder:chisel        
+      result:
+        item: buildersbasics:birch_boards
+        amount: 1  
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 1          
+    black_purpur_block:
+      permission: buildersbasics.black_purpur_block
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: buildersbasics:light_gray_purpur_block
+        C: BLACK_DYE        
+      result:
+        item: buildersbasics:black_purpur_block
+        amount: 1       
+    black_terracotta_bricks:
+      permission: buildersbasics.black_terracotta_bricks
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: BLACK_TERRACOTTA
+        C: itemsadder:chisel        
+      result:
+        item: buildersbasics:black_terracotta_bricks
+        amount: 1    
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 1    
+    light_gray_purpur_block:
+      permission: buildersbasics.light_gray_purpur_block
+      enabled: true
+      pattern:
+      - XXX
+      - XSS
+      - XSS
+      ingredients:
+        S: SMOOTH_STONE      
+      result:
+        item: buildersbasics:light_gray_purpur_block
+        amount: 4   
+    dark_oak_boards:
+      permission: buildersbasics.dark_oak_boards
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: STRIPPED_DARK_OAK_WOOD     
+        C: itemsadder:chisel
+      result:
+        item: buildersbasics:dark_oak_boards
+        amount: 1  
+    blue_purpur_block:
+      permission: buildersbasics.blue_purpur_block
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: buildersbasics:light_gray_purpur_block
+        C: BLUE_DYE
+      result:
+        item: buildersbasics:blue_purpur_block
+        amount: 1
+    blue_terracotta_bricks:
+      permission: buildersbasics.blue_terracotta_bricks
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: BLUE_TERRACOTTA
+        C: itemsadder:chisel
+      result:
+        item: buildersbasics:blue_terracotta_bricks
+        amount: 1     
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 1   
+    brown_purpur_block:
+      permission: buildersbasics.brown_purpur_block
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: buildersbasics:light_gray_purpur_block
+        C: BROWN_DYE        
+      result:
+        item: buildersbasics:brown_purpur_block
+        amount: 1  
+    brown_terracotta_bricks:
+      permission: buildersbasics.brown_terracotta_bricks
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: BLUE_TERRACOTTA
+        C: itemsadder:chisel
+      result:
+        item: buildersbasics:brown_terracotta_bricks
+        amount: 1     
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 1    
+    chiseled_andesite:
+      permission: buildersbasics.chiseled_andesite
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: ANDESITE
+        C: itemsadder:chisel        
+      result:
+        item: buildersbasics:chiseled_andesite
+        amount: 1  
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 1
+    chiseled_dark_prismarine:
+      permission: buildersbasics.chiseled_dark_prismarine
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: DARK_PRISMARINE
+        C: itemsadder:chisel        
+      result:
+        item: buildersbasics:chiseled_dark_prismarine
+        amount: 1  
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 1  
+    chiseled_diorite:
+      permission: buildersbasics.chiseled_diorite
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: DIORITE
+        C: itemsadder:chisel        
+      result:
+        item: buildersbasics:chiseled_diorite
+        amount: 1
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 1 
+    chiseled_granite:
+      permission: buildersbasics.chiseled_granite
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: GRANITE
+        C: itemsadder:chisel        
+      result:
+        item: buildersbasics:chiseled_granite
+        amount: 1
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 1     
+    chiseled_prismarine:
+      permission: buildersbasics.chiseled_prismarine
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: PRISMARINE
+        C: itemsadder:chisel        
+      result:
+        item: buildersbasics:chiseled_prismarine
+        amount: 1
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 1  
+    cobblestone_bricks:
+      permission: buildersbasics.cobblestone_bricks
+      enabled: true
+      pattern:
+      - XXX
+      - XSS
+      - XSS
+      ingredients:
+        S: COBBLESTONE      
+      result:
+        item: buildersbasics:cobblestone_bricks
+        amount: 4  
+    cyan_purpur_block:
+      permission: buildersbasics.cyan_purpur_block
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: buildersbasics:cyan_purpur_block
+        C: CYAN_DYE        
+      result:
+        item: buildersbasics:cyan_purpur_block
+        amount: 1  
+    cyan_terracotta_bricks:
+      permission: buildersbasics.cyan_terracotta_bricks
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: CYAN_TERRACOTTA
+        C: itemsadder:chisel
+      result:
+        item: buildersbasics:cyan_terracotta_bricks
+        amount: 1     
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 1   
+    dark_prismarine_bricks:
+      permission: buildersbasics.dark_prismarine_bricks
+      enabled: true
+      pattern:
+      - XXX
+      - XSS
+      - XSS
+      ingredients:
+        S: DARK_PRISMARINE      
+      result:
+        item: buildersbasics:dark_prismarine_bricks
+        amount: 4
+    dark_prismarine_pillar:
+      permission: buildersbasics.dark_prismarine_pillar
+      enabled: true
+      pattern:
+      - XXS
+      - XCS
+      - XXS
+      ingredients:
+        S: DARK_PRISMARINE
+        C: itemsadder:chisel        
+      result:
+        item: buildersbasics:dark_prismarine_pillar
+        amount: 3  
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 2
+    dark_prismarine_tiles_1:
+      permission: buildersbasics.dark_prismarine_tiles
+      enabled: true
+      pattern:
+      - XXX
+      - XSS
+      - XSS
+      ingredients:
+        S: buildersbasics:dark_prismarine_bricks
+      result:
+        item: buildersbasics:dark_prismarine_tiles
+        amount: 4          
+    diorite_bricks:
+      permission: buildersbasics.diorite_bricks
+      enabled: true
+      pattern:
+      - XXX
+      - XSS
+      - XSS
+      ingredients:
+        S: POLISHED_DIORITE  
+      result:
+        item: buildersbasics:diorite_bricks
+        amount: 4   
+    diorite_pillar:
+      permission: buildersbasics.diorite_pillar
+      enabled: true
+      pattern:
+      - XXS
+      - XCS
+      - XXS
+      ingredients:
+        S: POLISHED_DIORITE
+        C: itemsadder:chisel        
+      result:
+        item: buildersbasics:diorite_pillar
+        amount: 3  
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 2    
+    end_stone_pillar:
+      permission: buildersbasics.end_stone_pillar
+      enabled: true
+      pattern:
+      - XXS
+      - XCS
+      - XXS
+      ingredients:
+        S: END_STONE
+        C: itemsadder:chisel        
+      result:
+        item: buildersbasics:end_stone_pillar
+        amount: 3  
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 2    
+    end_stone_tiles:
+      permission: buildersbasics.end_stone_tiles
+      enabled: true
+      pattern:
+      - XXX
+      - XSS
+      - XSS
+      ingredients:
+        S: END_STONE
+      result:
+        item: buildersbasics:end_stone_tiles
+        amount: 4      
+    granite_bricks:
+      permission: buildersbasics.granite_bricks
+      enabled: true
+      pattern:
+      - XXX
+      - XSS
+      - XSS
+      ingredients:
+        S: POLISHED_GRANITE        
+      result:
+        item: buildersbasics:granite_bricks
+        amount: 4  
+    granite_pillar:
+      permission: buildersbasics.granite_pillar
+      enabled: true
+      pattern:
+      - XXS
+      - XCS
+      - XXS
+      ingredients:
+        S: POLISHED_GRANITE
+        C: itemsadder:chisel        
+      result:
+        item: buildersbasics:granite_pillar
+        amount: 3  
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 2   
+    gray_purpur_block:
+      permission: buildersbasics.gray_purpur_block
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: buildersbasics:light_gray_purpur_block
+        C: GRAY_DYE        
+      result:
+        item: buildersbasics:gray_purpur_block
+        amount: 1  
+    gray_terracotta_bricks:
+      permission: buildersbasics.gray_terracotta_bricks
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: GRAY_TERRACOTTA
+        C: itemsadder:chisel
+      result:
+        item: buildersbasics:gray_terracotta_bricks
+        amount: 1     
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 1        
+    green_purpur_block:
+      permission: buildersbasics.green_purpur_block
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: buildersbasics:light_gray_purpur_block
+        C: GREEN_DYE        
+      result:
+        item: buildersbasics:green_purpur_block
+        amount: 1 
+    green_terracotta_bricks:
+      permission: buildersbasics.green_terracotta_bricks
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: GREEN_TERRACOTTA
+        C: itemsadder:chisel
+      result:
+        item: buildersbasics:green_terracotta_bricks
+        amount: 1     
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 1  
+    infernal_lantern:
+      permission: infernal_lantern
+      enabled: true
+      pattern:
+      - SSS
+      - SGS
+      - SSS
+      ingredients:
+        S: NETHER_BRICKS
+        G: GLOWSTONE        
+      result:
+        item: buildersbasics:infernal_lantern
+        amount: 8   
+    jungle_boards:
+      permission: buildersbasics.jungle_boards
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: STRIPPED_JUNGLE_WOOD
+        C: itemsadder:chisel        
+      result:
+        item: buildersbasics:jungle_boards
+        amount: 1 
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 1  
+    light_blue_purpur_block:
+      permission: buildersbasics.light_blue_purpur_block
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: buildersbasics:light_gray_purpur_block
+        C: LIGHT_BLUE_DYE        
+      result:
+        item: buildersbasics:light_blue_purpur_block
+        amount: 1  
+    light_blue_terracotta_bricks:
+      permission: buildersbasics.light_blue_terracotta_bricks
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: LIGHT_BLUE_TERRACOTTA
+        C: itemsadder:chisel
+      result:
+        item: buildersbasics:light_blue_terracotta_bricks
+        amount: 1     
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 1    
+    light_gray_terracotta_bricks:
+      permission: buildersbasics.light_gray_terracotta_bricks
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: LIGHT_GRAY_TERRACOTTA
+        C: itemsadder:chisel
+      result:
+        item: buildersbasics:light_gray_terracotta_bricks
+        amount: 1     
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 1  
+    lime_purpur_block:
+      permission: buildersbasics.lime_purpur_block
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: buildersbasics:light_gray_purpur_block
+        C: LIME_DYE        
+      result:
+        item: buildersbasics:lime_purpur_block
+        amount: 1    
+    lime_terracotta_bricks:
+      permission: buildersbasics.lime_terracotta_bricks
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: LIME_TERRACOTTA
+        C: itemsadder:chisel
+      result:
+        item: buildersbasics:lime_terracotta_bricks
+        amount: 1     
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 1 
+    magenta_purpur_block:
+      permission: buildersbasics.magenta_purpur_block
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: buildersbasics:light_gray_purpur_block
+        C: MAGENTA_DYE        
+      result:
+        item: buildersbasics:magenta_purpur_block
+        amount: 1  
+    magenta_terracotta_bricks:
+      permission: buildersbasics.magenta_terracotta_bricks
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: MAGENTA_TERRACOTTA
+        C: itemsadder:chisel
+      result:
+        item: buildersbasics:magenta_terracotta_bricks
+        amount: 1     
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 1       
+    mossy_cobblestone_bricks:
+      permission: buildersbasics.mossy_cobblestone_bricks
+      enabled: true
+      pattern:
+      - XXX
+      - XSS
+      - XSS
+      ingredients:
+        S: MOSSY_COBBLESTONE      
+      result:
+        item: buildersbasics:mossy_cobblestone_bricks
+        amount: 4    
+    oak_boards:
+      permission: buildersbasics.oak_boards
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: STRIPPED_OAK_WOOD
+        C: itemsadder:chisel        
+      result:
+        item: buildersbasics:oak_boards
+        amount: 1 
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 1   
+    orange_purpur_block:
+      permission: buildersbasics.orange_purpur_block
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: buildersbasics:light_gray_purpur_block
+        C: ORANGE_DYE        
+      result:
+        item: buildersbasics:orange_purpur_block
+        amount: 1    
+    orange_terracotta_bricks:
+      permission: buildersbasics.orange_terracotta_bricks
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: ORANGE_TERRACOTTA
+        C: itemsadder:chisel
+      result:
+        item: buildersbasics:orange_terracotta_bricks
+        amount: 1     
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 1               
+    pink_purpur_block:
+      permission: buildersbasics.pink_purpur_block
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: buildersbasics:light_gray_purpur_block
+        C: PINK_DYE        
+      result:
+        item: buildersbasics:pink_purpur_block
+        amount: 1  
+    pink_terracotta_bricks:
+      permission: buildersbasics.pink_terracotta_bricks
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: PINK_TERRACOTTA
+        C: itemsadder:chisel
+      result:
+        item: buildersbasics:pink_terracotta_bricks
+        amount: 1     
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 1         
+    polished_stone:
+      permission: buildersbasics.polished_stone
+      enabled: true
+      pattern:
+      - SSS
+      - SSS
+      - SSS
+      ingredients:
+        S: STONE        
+      result:
+        item: buildersbasics:polished_stone
+        amount: 9         
+    prismarine_pillar:
+      permission: buildersbasics.prismarine_pillar
+      enabled: true
+      pattern:
+      - XXS
+      - XCS
+      - XXS
+      ingredients:
+        S: PRISMARINE
+        C: itemsadder:chisel        
+      result:
+        item: buildersbasics:prismarine_pillar
+        amount: 3  
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 2  
+    dark_prismarine_tiles:
+      permission: buildersbasics.dark_prismarine_tiles
+      enabled: true
+      pattern:
+      - XXX
+      - XSS
+      - XSS
+      ingredients:
+        S: PRISMARINE_BRICKS
+      result:
+        item: buildersbasics:dark_prismarine_tiles
+        amount: 4  
+    purple_purpur_block:
+      permission: buildersbasics.purple_purpur_block
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: buildersbasics:light_gray_purpur_block
+        C: PURPLE_DYE        
+      result:
+        item: buildersbasics:purple_purpur_block
+        amount: 1     
+    red_purpur_block:
+      permission: buildersbasics.red_purpur_block
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: buildersbasics:light_gray_purpur_block
+        C: RED_DYE        
+      result:
+        item: buildersbasics:red_purpur_block
+        amount: 1      
+    red_terracotta_bricks:
+      permission: buildersbasics.red_terracotta_bricks
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: RED_TERRACOTTA
+        C: itemsadder:chisel
+      result:
+        item: buildersbasics:red_terracotta_bricks
+        amount: 1     
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 1  
+    purple_terracotta_bricks:
+      permission: buildersbasics.purple_terracotta_bricks
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: PURPLE_TERRACOTTA
+        C: itemsadder:chisel
+      result:
+        item: buildersbasics:purple_terracotta_bricks
+        amount: 1     
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 1 
+    sandstone_pillar:
+      permission: buildersbasics.sandstone_pillar
+      enabled: true
+      pattern:
+      - XXS
+      - XCS
+      - XXS
+      ingredients:
+        S: SANDSTONE
+        C: itemsadder:chisel        
+      result:
+        item: buildersbasics:sandstone_pillar
+        amount: 3  
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 2     
+    small_andesite_bricks:
+      permission: buildersbasics.small_andesite_bricks
+      enabled: true
+      pattern:
+      - XXX
+      - XSS
+      - XSS
+      ingredients:
+        S: buildersbasics:andesite_bricks        
+      result:
+        item: buildersbasics:small_andesite_bricks
+        amount: 4   
+    small_diorite_bricks:
+      permission: buildersbasics.small_diorite_bricks
+      enabled: true
+      pattern:
+      - XXX
+      - XSS
+      - XSS
+      ingredients:
+        S: buildersbasics:diorite_bricks       
+      result:
+        item: buildersbasics:small_diorite_bricks
+        amount: 4    
+    small_end_stone_bricks:
+      permission: buildersbasics.small_end_stone_bricks
+      enabled: true
+      pattern:
+      - XXX
+      - XSS
+      - XSS
+      ingredients:
+        S: END_STONE_BRICKS       
+      result:
+        item: buildersbasics:small_end_stone_bricks
+        amount: 4    
+    small_granite_bricks:
+      permission: buildersbasics.small_granite_bricks
+      enabled: true
+      pattern:
+      - XXX
+      - XSS
+      - XSS
+      ingredients:
+        S: buildersbasics:granite_bricks     
+      result:
+        item: buildersbasics:small_granite_bricks
+        amount: 4    
+    small_permafrost_bricks:
+      permission: buildersbasics.small_permafrost_bricks
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: BLUE_ICE   
+        C: itemsadder:chisel        
+      result:
+        item: buildersbasics:small_permafrost_bricks
+        amount: 4  
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 1        
+    small_stone_bricks:
+      permission: buildersbasics.small_stone_bricks
+      enabled: true
+      pattern:
+      - XXX
+      - XSS
+      - XSS
+      ingredients:
+        S: STONE_BRICKS    
+      result:
+        item: buildersbasics:small_stone_bricks
+        amount: 4 
+    spruce_boards:
+      permission: buildersbasics.spruce_boards
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: STRIPPED_SPRUCE_WOOD
+        C: itemsadder:chisel        
+      result:
+        item: buildersbasics:spruce_boards
+        amount: 1  
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 1       
+    stone_pillar:
+      permission: buildersbasics.stone_pillar
+      enabled: true
+      pattern:
+      - XXS
+      - XCS
+      - XXS
+      ingredients:
+        S: STONE
+        C: itemsadder:chisel        
+      result:
+        item: buildersbasics:stone_pillar
+        amount: 3  
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 2              
+    terracotta_bricks:
+      permission: buildersbasics.terracotta_bricks
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: TERRACOTTA
+        C: itemsadder:chisel
+      result:
+        item: buildersbasics:terracotta_bricks
+        amount: 1     
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 1 
+    white_purpur_block:
+      permission: buildersbasics.white_purpur_block
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: buildersbasics:light_gray_purpur_block
+        C: WHITE_DYE        
+      result:
+        item: buildersbasics:white_purpur_block
+        amount: 1                
+    white_terracotta_bricks:
+      permission: buildersbasics.white_terracotta_bricks
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: WHITE_TERRACOTTA
+        C: itemsadder:chisel
+      result:
+        item: buildersbasics:white_terracotta_bricks
+        amount: 1     
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 1 
+    yellow_purpur_block:
+      permission: buildersbasics.yellow_purpur_block
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: buildersbasics:light_gray_purpur_block
+        C: YELLOW_DYE        
+      result:
+        item: buildersbasics:yellow_purpur_block
+        amount: 1 
+    yellow_terracotta_bricks:
+      permission: buildersbasics.yellow_terracotta_bricks
+      enabled: true
+      pattern:
+      - XXX
+      - XCS
+      - XXX
+      ingredients:
+        S: YELLOW_TERRACOTTA
+        C: itemsadder:chisel
+      result:
+        item: buildersbasics:yellow_terracotta_bricks
+        amount: 1     
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 1        

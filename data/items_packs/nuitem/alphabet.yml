@@ -1,0 +1,264 @@
+info:
+  namespace: nuitem
+
+items:
+  alphabet_space:
+    display_name: space
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - fonts/font_space.png
+
+  alphabet_0:
+    display_name: "0"
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - fonts/font_01.png
+  alphabet_1:
+    display_name: "1"
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - fonts/font_02.png
+  alphabet_2:
+    display_name: "2"
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - fonts/font_03.png
+  alphabet_3:
+    display_name: "3"
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - fonts/font_04.png
+  alphabet_4:
+    display_name: "4"
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - fonts/font_05.png
+  alphabet_5:
+    display_name: "5"
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - fonts/font_06.png
+  alphabet_6:
+    display_name: "6"
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - fonts/font_07.png
+  alphabet_7:
+    display_name: "7"
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - fonts/font_08.png
+  alphabet_8:
+    display_name: "8"
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - fonts/font_09.png
+  alphabet_9:
+    display_name: "9"
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - fonts/font_10.png
+  alphabet_a:
+    display_name: a
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - fonts/font_11.png
+  alphabet_b:
+    display_name: b
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - fonts/font_12.png
+  alphabet_c:
+    display_name: c
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - fonts/font_13.png
+  alphabet_d:
+    display_name: d
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - fonts/font_14.png
+  alphabet_e:
+    display_name: e
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - fonts/font_15.png
+  alphabet_f:
+    display_name: f
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - fonts/font_16.png
+  alphabet_g:
+    display_name: g
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - fonts/font_17.png
+  alphabet_h:
+    display_name: h
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - fonts/font_18.png
+  alphabet_i:
+    display_name: i
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - fonts/font_19.png
+  alphabet_j:
+    display_name: j
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - fonts/font_20.png
+  alphabet_k:
+    display_name: k
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - fonts/font_21.png
+  alphabet_l:
+    display_name: l
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - fonts/font_22.png
+  alphabet_m:
+    display_name: m
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - fonts/font_23.png
+  alphabet_n:
+    display_name: n
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - fonts/font_24.png
+  alphabet_o:
+    display_name: o
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - fonts/font_25.png
+  alphabet_p:
+    display_name: p
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - fonts/font_26.png
+  alphabet_q:
+    display_name: q
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - fonts/font_27.png
+  alphabet_r:
+    display_name: r
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - fonts/font_28.png
+  alphabet_s:
+    display_name: s
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - fonts/font_29.png
+  alphabet_t:
+    display_name: t
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - fonts/font_30.png
+  alphabet_u:
+    display_name: u
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - fonts/font_31.png
+  alphabet_v:
+    display_name: v
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - fonts/font_32.png
+  alphabet_w:
+    display_name: w
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - fonts/font_33.png
+  alphabet_x:
+    display_name: x
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - fonts/font_34.png
+  alphabet_y:
+    display_name: y
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - fonts/font_35.png
+  alphabet_z:
+    display_name: z
+    resource:
+      material: paper
+      generate: true
+      textures:
+      - fonts/font_36.png
