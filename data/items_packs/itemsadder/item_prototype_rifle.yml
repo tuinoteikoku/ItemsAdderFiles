@@ -3,10 +3,10 @@ info:
 items:
   protorifle:
     enabled: true
-    display_name: display-name-developrifle
-    permission: iaweapons.items.developrifle
+    display_name: display-name-prototype_rifle
+    permission: iaweapons.items.prototype_rifle
     resource:
-      model_path: item/protorifle
+      model_path: item/sakuyou_custom/model_prototype_rifle
       material: WOODEN_SWORD
       generate: false
     durability:
@@ -28,7 +28,7 @@ items:
         play_sound:
           name: entity.wither.hurt
           volume: 2
-          pitch: 1
+          pitch: 2
         decrement_durability:
           amount: 10
 
