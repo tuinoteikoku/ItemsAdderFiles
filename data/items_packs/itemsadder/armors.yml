@@ -1,0 +1,572 @@
+info:
+  namespace: itemsadder
+items:
+  ruby_head:
+    display_name: display-name-ruby_head
+    permission: rubyarmor
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 275
+    specific_properties:
+      armor:
+        slot: head
+        color: ff0000
+    attribute_modifiers:
+      head:
+        armor: 9
+        armorToughness: 1
+  ruby_chest:
+    display_name: display-name-ruby_chest
+    permission: rubyarmor
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 400
+    specific_properties:
+      armor:
+        slot: chest
+        color: ff0000
+    attribute_modifiers:
+      chest:
+        armor: 7
+        armorToughness: 1
+  ruby_legs:
+    display_name: display-name-ruby_legs
+    permission: rubyarmor
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 375
+    specific_properties:
+      armor:
+        slot: legs
+        color: ff0000
+    attribute_modifiers:
+      legs:
+        armor: 5
+        armorToughness: 1
+  ruby_boots:
+    display_name: display-name-ruby_boots
+    permission: rubyarmor
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 325
+    specific_properties:
+      armor:
+        slot: FEET
+        color: ff0000
+    attribute_modifiers:
+      feet:
+        armor: 3
+        armorToughness: 1
+  spinel_head:
+    display_name: display-name-spinel_head
+    permission: spinelarmor
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 175
+    specific_properties:
+      armor:
+        slot: head
+        color: ff7e7e
+    attribute_modifiers:
+      head:
+        armor: 9
+        armorToughness: 1
+  spinel_chest:
+    display_name: display-name-spinel_chest
+    permission: spinelarmor
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 300
+    specific_properties:
+      armor:
+        slot: chest
+        color: ff7e7e
+    attribute_modifiers:
+      chest:
+        armor: 7
+        armorToughness: 1
+  spinel_legs:
+    display_name: display-name-spinel_legs
+    permission: spinelarmor
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 275
+    specific_properties:
+      armor:
+        slot: legs
+        color: ff7e7e
+    attribute_modifiers:
+      legs:
+        armor: 5
+        armorToughness: 1
+  spinel_boots:
+    display_name: display-name-spinel_boots
+    permission: spinelarmor
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 225
+    specific_properties:
+      armor:
+        slot: FEET
+        color: ff7e7e
+    attribute_modifiers:
+      feet:
+        armor: 3
+        armorToughness: 1
+  turquoise_head:
+    display_name: display-name-turquoise_head
+    permission: turquoisearmor
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 175
+    specific_properties:
+      armor:
+        slot: head
+        color: 75bebe
+    attribute_modifiers:
+      head:
+        armor: 9
+        armorToughness: 2
+  turquoise_chest:
+    display_name: display-name-turquoise_chest
+    permission: turquoisearmor
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 300
+    specific_properties:
+      armor:
+        slot: chest
+        color: 75bebe
+    attribute_modifiers:
+      chest:
+        armor: 7
+        armorToughness: 2
+  turquoise_legs:
+    display_name: display-name-turquoise_legs
+    permission: turquoisearmor
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 275
+    specific_properties:
+      armor:
+        slot: legs
+        color: 75bebe
+    attribute_modifiers:
+      legs:
+        armor: 5
+        armorToughness: 2
+  turquoise_boots:
+    display_name: display-name-turquoise_boots
+    permission: turquoisearmor
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 225
+    specific_properties:
+      armor:
+        slot: FEET
+        color: 75bebe
+    attribute_modifiers:
+      feet:
+        armor: 3
+        armorToughness: 2
+  aqua_head:
+    display_name: display-name-aqua_head
+    permission: aquaarmor
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 175
+    specific_properties:
+      armor:
+        slot: head
+        color: 16d4ff
+    attribute_modifiers:
+      head:
+        armor: 9
+  aqua_chest:
+    display_name: display-name-aqua_chest
+    permission: aquaarmor
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 300
+    specific_properties:
+      armor:
+        slot: chest
+        color: 16d4ff
+    attribute_modifiers:
+      chest:
+        armor: 7
+  aqua_legs:
+    display_name: display-name-aqua_legs
+    permission: aquaarmor
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 275
+    specific_properties:
+      armor:
+        slot: legs
+        color: 16d4ff
+    attribute_modifiers:
+      legs:
+        armor: 5
+  aqua_boots:
+    display_name: display-name-aqua_boots
+    permission: aquaarmor
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 225
+    specific_properties:
+      armor:
+        slot: FEET
+        color: 16d4ff
+    attribute_modifiers:
+      feet:
+        armor: 3
+  amethyst_head:
+    display_name: display-name-amethyst_head
+    permission: amethystarmor
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 475
+    specific_properties:
+      armor:
+        slot: head
+        color: '530766'
+    attribute_modifiers:
+      head:
+        armor: 9
+        armorToughness: 2
+  amethyst_chest:
+    display_name: display-name-amethyst_chest
+    permission: amethystarmor
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 700
+    specific_properties:
+      armor:
+        slot: chest
+        color: '530766'
+    attribute_modifiers:
+      chest:
+        armor: 7
+        armorToughness: 2
+  amethyst_legs:
+    display_name: display-name-amethyst_legs
+    permission: amethystarmor
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 575
+    specific_properties:
+      armor:
+        slot: legs
+        color: '530766'
+    attribute_modifiers:
+      legs:
+        armor: 5
+        armorToughness: 2
+  amethyst_boots:
+    display_name: display-name-amethyst_boots
+    permission: amethystarmor
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 525
+    specific_properties:
+      armor:
+        slot: FEET
+        color: '530766'
+    attribute_modifiers:
+      feet:
+        armor: 3
+        armorToughness: 2
+  emerald_head:
+    display_name: display-name-emerald_head
+    permission: emeraldhead
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 276
+    specific_properties:
+      armor:
+        slot: head
+        color: 00ff72
+    attribute_modifiers:
+      head:
+        armor: 9
+        armorToughness: 1
+  emerald_chest:
+    display_name: display-name-emerald_chest
+    permission: emeraldarmor
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 156
+    specific_properties:
+      armor:
+        slot: chest
+        color: 00ff72
+    attribute_modifiers:
+      chest:
+        armor: 7
+        armorToughness: 1
+  emerald_legs:
+    display_name: display-name-emerald_legs
+    permission: emeraldarmor
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 395
+    specific_properties:
+      armor:
+        slot: legs
+        color: 00ff72
+    attribute_modifiers:
+      legs:
+        armor: 5
+        armorToughness: 1
+  emerald_boots:
+    display_name: display-name-emerald_boots
+    permission: emeraldarmor
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 329
+    specific_properties:
+      armor:
+        slot: FEET
+        color: 00ff72
+    attribute_modifiers:
+      feet:
+        armor: 3
+        armorToughness: 1
+  obsidian_head:
+    display_name: display-name-obsidian_head
+    permission: obsidianhead
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 563
+    specific_properties:
+      armor:
+        slot: head
+        color: '010002'
+    attribute_modifiers:
+      head:
+        armor: 9
+        armorToughness: 2
+  obsidian_chest:
+    display_name: display-name-obsidian_chest
+    permission: obsidianarmor
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 728
+    specific_properties:
+      armor:
+        slot: chest
+        color: '010002'
+    attribute_modifiers:
+      chest:
+        armor: 7
+        armorToughness: 2
+  obsidian_legs:
+    display_name: display-name-obsidian_legs
+    permission: obsidianarmor
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 695
+    specific_properties:
+      armor:
+        slot: legs
+        color: '010002'
+    attribute_modifiers:
+      legs:
+        armor: 5
+        armorToughness: 2
+  obsidian_boots:
+    display_name: display-name-obsidian_boots
+    permission: obsidianarmor
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 629
+    specific_properties:
+      armor:
+        slot: FEET
+        color: '010002'
+    attribute_modifiers:
+      feet:
+        armor: 3
+        armorToughness: 2
+  mysterious_chest:
+    display_name: display-name-mysterious_chest
+    permission: mysterious_armor
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 928
+    specific_properties:
+      armor:
+        slot: chest
+        color: '570e11'
+    attribute_modifiers:
+      chest:
+        armor: 6
+        armorToughness: 1
+    events:
+      wear:
+        play_sound:
+          name: itemsadder:ambient.creepy
+          volume: 1
+          pitch: 1
+      unwear:
+        play_sound:
+          name: itemsadder:ambient.creepy
+          volume: 1
+          pitch: 1
+  mysterious_legs:
+    display_name: display-name-mysterious_legs
+    permission: mysterious_armor
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 895
+    specific_properties:
+      armor:
+        slot: legs
+        color: '570e11'
+    attribute_modifiers:
+      legs:
+        armor: 5
+        armorToughness: 1
+    events:
+      wear:
+        play_sound:
+          name: itemsadder:ambient.creepy
+          volume: 1
+          pitch: 1
+      unwear:
+        play_sound:
+          name: itemsadder:ambient.creepy
+          volume: 1
+          pitch: 1
+  mysterious_boots:
+    display_name: display-name-mysterious_boots
+    permission: mysterious_armor
+    lore:
+    - 'lore-1-mysterious_boots'
+    - 'lore-2-mysterious_boots'
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 829
+    specific_properties:
+      armor:
+        slot: FEET
+        color: '570e11'
+    attribute_modifiers:
+      feet:
+        armor: 2
+        armorToughness: 1
+    events:
+      wear:
+        play_sound:
+          name: itemsadder:ambient.creepy
+          volume: 1
+          pitch: 1
+        potion_effect:
+          type: SPEED
+          duration: 1000000
+          amplifier: 1
+        play_particle:
+          name: ENCHANTMENT_TABLE
+        decrement_durability:
+          amount: 5
+      unwear:
+        play_sound:
+          name: itemsadder:ambient.creepy
+          volume: 1
+          pitch: 1
+        remove_potion_effect:
+          type: SPEED
+        play_particle:
+          name: ENCHANTMENT_TABLE
+  bronze_head:
+    display_name: display-name-bronze_head
+    permission: bronzearmor
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 375
+    specific_properties:
+      armor:
+        slot: head
+        color: d36823
+    attribute_modifiers:
+      head:
+        armor: 9
+        armorToughness: 2
+  bronze_chest:
+    display_name: display-name-bronze_chest
+    permission: bronzearmor
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 500
+    specific_properties:
+      armor:
+        slot: chest
+        color: d36823
+    attribute_modifiers:
+      chest:
+        armor: 8
+        armorToughness: 2
+  bronze_legs:
+    display_name: display-name-bronze_legs
+    permission: bronzearmor
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 475
+    specific_properties:
+      armor:
+        slot: legs
+        color: d36823
+    attribute_modifiers:
+      legs:
+        armor: 5
+        armorToughness: 2
+  bronze_boots:
+    display_name: display-name-bronze_boots
+    permission: bronzearmor
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 425
+    specific_properties:
+      armor:
+        slot: FEET
+        color: d36823
+    attribute_modifiers:
+      feet:
+        armor: 3
+        armorToughness: 2
