@@ -4,7 +4,7 @@ items:
   solid_food:
     enabled: true
     display_name: display-name-solid_food
-    permission: iasurvival.fishes.solid_food
+    permission: solid_food
     resource:
       material: COOKED_PORKCHOP
       generate: true
