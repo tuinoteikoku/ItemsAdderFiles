@@ -1,0 +1,11 @@
+info:
+  namespace: itemsadder
+  dictionary-lang: "jp"
+dictionary:
+  display-name-tin_ingot: スズ合金
+  display-name-endstone_ingot: エンドストーン合金
+  display-name-duralumin_ingot: ジュラルミン合金
+  display-name-aluminium_ingot: アルミニウム合金
+  display-name-tungsten_ingot: タングステン合金
+  display-name-con_nether_brick: 濃縮ネザーレンガ
+  display-name-m_con_nether_brick: 高濃縮ネザーレンガ
