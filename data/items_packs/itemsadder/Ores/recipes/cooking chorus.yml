@@ -1,0 +1,18 @@
+info:
+  namespace: itemsadder
+recipes:
+  cooking:
+      burned_chorus:
+        enabled: true
+        permission: burned_chorus
+        ingredient:
+          item: POPPED_CHORUS_FRUIT
+        machines:
+          - FURNACE
+          - BLAST_FURNACE
+          - SMOKER
+        exp: 1
+        cook_time: 200
+        result:
+        item: burned_chorus
+        amount: 1
