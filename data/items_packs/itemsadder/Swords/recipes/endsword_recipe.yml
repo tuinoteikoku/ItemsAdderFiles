@@ -1,0 +1,52 @@
+info:
+    namespace: itemsadder
+recipes:
+  crafting_table:
+    endostone_sword:
+      permission: endostone_sword
+      enabled: true
+      pattern:
+        - XEX
+        - XEX
+        - XTX
+      ingredients:
+        T: tin_ingot
+        E: endostone_ingot
+      result:
+        item: endostone_sword
+    duralumin_sword:
+      permission: duralumin_sword
+      enabled: true
+      pattern:
+        - XEX
+        - XEX
+        - XTX
+      ingredients:
+        T: tin_ingot
+        E: duralumin_ingot
+      result:
+        item: duralumin_sword
+    aluminium_sword:
+      permission: aluminium_sword
+      enabled: true
+      pattern:
+        - XEX
+        - XEX
+        - XTX
+      ingredients:
+        T: tin_ingot
+        E: aluminium_ingot
+      result:
+        item: aluminium_sword
+    tungsten_sword:
+      permission: tungsten_sword
+      enabled: true
+      pattern:
+        - XEX
+        - XEX
+        - XTX
+      ingredients:
+        T: tin_ingot
+        E: tungsten_ingot
+      result:
+        item: tungsten_sword
