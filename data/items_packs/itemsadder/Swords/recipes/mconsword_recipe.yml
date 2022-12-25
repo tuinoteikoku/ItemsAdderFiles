@@ -1,0 +1,16 @@
+info:
+    namespace: itemsadder
+recipes:
+  crafting_table:
+    mcon_sword:
+      permission: mcon_sword
+      enabled: true
+      pattern:
+        - XEX
+        - XEX
+        - XTX
+      ingredients:
+        T: STICK
+        E: m_con_nether_brick
+      result:
+        item: mcon_sword
