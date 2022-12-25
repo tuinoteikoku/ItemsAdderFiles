@@ -1,0 +1,52 @@
+info:
+    namespace: itemsadder
+recipes:
+  crafting_table:
+    mcon_pickaxe:
+      permission: mcon_pickaxe
+      enabled: true
+      pattern:
+        - EEE
+        - XTX
+        - XTX
+      ingredients:
+        T: STICK
+        E: tungsten_ingot
+      result:
+        item: mcon_pickaxe
+    tungsten_axe:
+      permission: tungsten_axe
+      enabled: true
+      pattern:
+        - XEE
+        - XTE
+        - XTX
+      ingredients:
+        T: tin_ingot
+        E: tungsten_ingot
+      result:
+        item: tungsten_axe
+    tungsten_shovel:
+      permission: tungsten_shovel
+      enabled: true
+      pattern:
+        - XEX
+        - XTX
+        - XTX
+      ingredients:
+        T: tin_ingot
+        E: tungsten_ingot
+      result:
+        item: tungsten_shovel
+    tungsten_hoe:
+      permission: tungsten_hoe
+      enabled: true
+      pattern:
+        - XEE
+        - XTX
+        - XTX
+      ingredients:
+        T: tin_ingot
+        E: tungsten_ingot
+      result:
+        item: tungsten_hoe
