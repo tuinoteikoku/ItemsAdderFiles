@@ -1,0 +1,48 @@
+info:
+    namespace: itemsadder
+recipes:
+  crafting_table:
+    endstone_helmet:
+      permission: endstone_helmet
+      enabled: true
+      pattern:
+        - TTT
+        - TXT
+        - XXX
+      ingredients:
+        T: endstone_ingot
+      result:
+        item: endstone_helmet
+    endstone_chestplate:
+      permission: endstone_chestplate
+      enabled: true
+      pattern:
+        - TXT
+        - TTT
+        - TTT
+      ingredients:
+        T: endstone_ingot
+      result:
+        item: endstone_chestplate
+    endstone_leggings:
+      permission: endstone_leggings
+      enabled: true
+      pattern:
+        - TTT
+        - TXT
+        - TXT
+      ingredients:
+        T: endstone_ingot
+      result:
+        item: endstone_leggings
+    endstone_boots:
+      permission: endstone_boots
+      enabled: true
+      pattern:
+        - XXX
+        - TXT
+        - TXT
+      ingredients:
+        T: endstone_ingot
+      result:
+        item: endstone_boots

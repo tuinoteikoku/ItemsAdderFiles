@@ -1,0 +1,48 @@
+info:
+    namespace: itemsadder
+recipes:
+  crafting_table:
+    tin_helmet:
+      permission: tin_helmet
+      enabled: true
+      pattern:
+        - TTT
+        - TXT
+        - XXX
+      ingredients:
+        T: tin_ingot
+      result:
+        item: tin_helmet
+    tin_chestplate:
+      permission: tin_chestplate
+      enabled: true
+      pattern:
+        - TXT
+        - TTT
+        - TTT
+      ingredients:
+        T: tin_ingot
+      result:
+        item: tin_chestplate
+    tin_leggings:
+      permission: tin_leggings
+      enabled: true
+      pattern:
+        - TTT
+        - TXT
+        - TXT
+      ingredients:
+        T: tin_ingot
+      result:
+        item: tin_leggings
+    tin_boots:
+      permission: tin_boots
+      enabled: true
+      pattern:
+        - XXX
+        - TXT
+        - TXT
+      ingredients:
+        T: tin_ingot
+      result:
+        item: tin_boots

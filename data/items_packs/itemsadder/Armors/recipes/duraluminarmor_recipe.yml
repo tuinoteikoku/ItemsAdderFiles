@@ -1,0 +1,48 @@
+info:
+    namespace: itemsadder
+recipes:
+  crafting_table:
+    duralumin_helmet:
+      permission: duralumin_helmet
+      enabled: true
+      pattern:
+        - TTT
+        - TXT
+        - XXX
+      ingredients:
+        T: duralumin_ingot
+      result:
+        item: duralumin_helmet
+    duralumin_chestplate:
+      permission: duralumin_chestplate
+      enabled: true
+      pattern:
+        - TXT
+        - TTT
+        - TTT
+      ingredients:
+        T: duralumin_ingot
+      result:
+        item: duralumin_chestplate
+    duralumin_leggings:
+      permission: duralumin_leggings
+      enabled: true
+      pattern:
+        - TTT
+        - TXT
+        - TXT
+      ingredients:
+        T: duralumin_ingot
+      result:
+        item: duralumin_leggings
+    duralumin_boots:
+      permission: duralumin_boots
+      enabled: true
+      pattern:
+        - XXX
+        - TXT
+        - TXT
+      ingredients:
+        T: duralumin_ingot
+      result:
+        item: duralumin_boots
