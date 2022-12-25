@@ -1,0 +1,188 @@
+info:
+  namespace: itemsadder
+items:
+  #スズ
+  tin_helmet:
+    enabled: true
+    display_name: display-name-tin_helmet
+    permission: tin_helmet
+    resource:
+      material: LEATHER_HELMET
+      generate: true
+      textures:
+        - textures/item/tin_helmet
+  tin_chestplate:
+    enabled: true
+    display_name: display-name-tin_chestplate
+    permission: tin_chestplate
+    resource:
+      material: LEATHER_CHESTPLATE
+      generate: true
+      textures:
+        - textures/item/tin_chestplate
+  tin_leggings:
+    enabled: true
+    display_name: display-name-tin_leggings
+    permission: tin_leggings
+    resource:
+      material: LEATHER_LEGGINGS
+      generate: true
+      textures:
+        - textures/item/tin_leggings
+  tin_boots:
+    enabled: true
+    display_name: display-name-tin_boots
+    permission: tin_boots
+    resource:
+      material: LEATHER_BOOTS
+      generate: true
+      textures:
+        - textures/item/tin_boots
+#エンドストーン
+  endstone_helmet:
+    enabled: true
+    display_name: display-name-endstone_helmet
+    permission: endstone_helmet
+    resource:
+      material: CHAINMAIL_HELMET
+      generate: true
+      textures:
+        - textures/item/endstone_helmet
+  endstone_chestplate:
+    enabled: true
+    display_name: display-name-endstone_chestplate
+    permission: endstone_chestplate
+    resource:
+      material: CHAINMAIL_CHESTPLATE
+      generate: true
+      textures:
+        - textures/item/endstone_chestplate
+  endstone_leggings:
+    enabled: true
+    display_name: display-name-endstone_leggings
+    permission: endstone_leggings
+    resource:
+      material: CHAINMAIL_LEGGINGS
+      generate: true
+      textures:
+        - textures/item/endstone_leggings
+  endstone_boots:
+    enabled: true
+    display_name: display-name-endstone_boots
+    permission: endstone_boots
+    resource:
+      material: CHAINMAIL_BOOTS
+      generate: true
+      textures:
+        - textures/item/endstone_boots
+#ジュラルミン
+  duralumin_helmet:
+    enabled: true
+    display_name: display-name-duralumin_helmet
+    permission: duralumin_helmet
+    resource:
+      material: IRON_HELMET
+      generate: true
+      textures:
+        - textures/item/duralumin_helmet
+  duralumin_chestplate:
+    enabled: true
+    display_name: display-name-duralumin_chestplate
+    permission: duralumin_chestplate
+    resource:
+      material: IRON_CHESTPLATE
+      generate: true
+      textures:
+        - textures/item/duralumin_chestplate
+  duralumin_leggings:
+    enabled: true
+    display_name: display-name-duralumin_leggings
+    permission: duralumin_leggings
+    resource:
+      material: IRON_LEGGINGS
+      generate: true
+      textures:
+        - textures/item/duralumin_leggings
+  duralumin_boots:
+    enabled: true
+    display_name: display-name-duralumin_boots
+    permission: duralumin_boots
+    resource:
+      material: IRON_BOOTS
+      generate: true
+      textures:
+        - textures/item/duralumin_boots
+#アルミ
+  aluminium_helmet:
+    enabled: true
+    display_name: display-name-aluminium_helmet
+    permission: aluminium_helmet
+    resource:
+      material: GOLDEN_HELMET
+      generate: true
+      textures:
+        - textures/item/aluminium_helmet
+  aluminium_chestplate:
+    enabled: true
+    display_name: display-name-aluminium_chestplate
+    permission: aluminium_chestplate
+    resource:
+      material: GOLDEN_CHESTPLATE
+      generate: true
+      textures:
+        - textures/item/aluminium_chestplate
+  aluminium_leggings:
+    enabled: true
+    display_name: display-name-aluminium_leggings
+    permission: aluminium_leggings
+    resource:
+      material: GOLDEN_LEGGINGS
+      generate: true
+      textures:
+        - textures/item/aluminium_leggings
+  aluminium_boots:
+    enabled: true
+    display_name: display-name-aluminium_boots
+    permission: aluminium_boots
+    resource:
+      material: GOLDEN_BOOTS
+      generate: true
+      textures:
+        - textures/item/aluminium_boots
+#タングステン
+  tungsten_helmet:
+    enabled: true
+    display_name: display-name-tungsten_helmet
+    permission: tungsten_helmet
+    resource:
+      material: DIAMOND_HELMET
+      generate: true
+      textures:
+        - textures/item/tungsten_helmet
+  tungsten_chestplate:
+    enabled: true
+    display_name: display-name-tungsten_chestplate
+    permission: tungsten_chestplate
+    resource:
+      material: DIAMOND_CHESTPLATE
+      generate: true
+      textures:
+        - textures/item/tungsten_chestplate
+  tungsten_leggings:
+    enabled: true
+    display_name: display-name-tungsten_leggings
+    permission: tungsten_leggings
+    resource:
+      material: DIAMOND_LEGGINGS
+      generate: true
+      textures:
+        - textures/item/tungsten_leggings
+  tungsten_boots:
+    enabled: true
+    display_name: display-name-tungsten_boots
+    permission: tungsten_boots
+    resource:
+      material: DIAMOND_BOOTS
+      generate: true
+      textures:
+        - textures/item/tungsten_boots
