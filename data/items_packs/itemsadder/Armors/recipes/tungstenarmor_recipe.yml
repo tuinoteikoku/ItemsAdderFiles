@@ -1,0 +1,48 @@
+info:
+    namespace: itemsadder
+recipes:
+  crafting_table:
+    tungsten_helmet:
+      permission: tungsten_helmet
+      enabled: true
+      pattern:
+        - TTT
+        - TXT
+        - XXX
+      ingredients:
+        T: tungsten_ingot
+      result:
+        item: tungsten_helmet
+    tungsten_chestplate:
+      permission: tungsten_chestplate
+      enabled: true
+      pattern:
+        - TXT
+        - TTT
+        - TTT
+      ingredients:
+        T: tungsten_ingot
+      result:
+        item: tungsten_chestplate
+    tungsten_leggings:
+      permission: tungsten_leggings
+      enabled: true
+      pattern:
+        - TTT
+        - TXT
+        - TXT
+      ingredients:
+        T: tungsten_ingot
+      result:
+        item: tungsten_leggings
+    tungsten_boots:
+      permission: tungsten_boots
+      enabled: true
+      pattern:
+        - XXX
+        - TXT
+        - TXT
+      ingredients:
+        T: tungsten_ingot
+      result:
+        item: tungsten_boots
