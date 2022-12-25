@@ -1,0 +1,52 @@
+info:
+    namespace: itemsadder
+recipes:
+  crafting_table:
+    aluminium_pickaxe:
+      permission: aluminium_pickaxe
+      enabled: true
+      pattern:
+        - EEE
+        - XTX
+        - XTX
+      ingredients:
+        T: tin_ingot
+        E: aluminium_ingot
+      result:
+        item: aluminium_pickaxe
+    aluminium_axe:
+      permission: aluminium_axe
+      enabled: true
+      pattern:
+        - XEE
+        - XTE
+        - XTX
+      ingredients:
+        T: tin_ingot
+        E: aluminium_ingot
+      result:
+        item: aluminium_axe
+    aluminium_shovel:
+      permission: aluminium_shovel
+      enabled: true
+      pattern:
+        - XEX
+        - XTX
+        - XTX
+      ingredients:
+        T: tin_ingot
+        E: aluminium_ingot
+      result:
+        item: aluminium_shovel
+    aluminium_hoe:
+      permission: aluminium_hoe
+      enabled: true
+      pattern:
+        - XEE
+        - XTX
+        - XTX
+      ingredients:
+        T: tin_ingot
+        E: aluminium_ingot
+      result:
+        item: aluminium_hoe
