@@ -1,0 +1,48 @@
+info:
+    namespace: itemsadder
+recipes:
+  crafting_table:
+    tin_pickaxe:
+      permission: tin_pickaxe
+      enabled: true
+      pattern:
+        - TTT
+        - XTX
+        - XTX
+      ingredients:
+        T: tin_ingot
+      result:
+        item: tin_pickaxe
+    tin_axe:
+      permission: tin_axe
+      enabled: true
+      pattern:
+        - XTT
+        - XTT
+        - XTX
+      ingredients:
+        T: tin_ingot
+      result:
+        item: tin_axe
+    tin_shovel:
+      permission: tin_shovel
+      enabled: true
+      pattern:
+        - XTX
+        - XTX
+        - XTX
+      ingredients:
+        T: tin_ingot
+      result:
+        item: tin_shovel
+    tin_hoe:
+      permission: tin_hoe
+      enabled: true
+      pattern:
+        - XTT
+        - XTX
+        - XTX
+      ingredients:
+        T: tin_ingot
+      result:
+        item: tin_hoe
