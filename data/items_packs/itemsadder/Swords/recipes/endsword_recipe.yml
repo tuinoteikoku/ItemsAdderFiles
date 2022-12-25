@@ -50,3 +50,16 @@ recipes:
         E: tungsten_ingot
       result:
         item: tungsten_sword
+    tin_sword:
+      permission: tin_sword
+      enabled: true
+      pattern:
+        - XEX
+        - XEX
+        - XTX
+      ingredients:
+        T: tin_rod
+        E: tin_ingot
+      result:
+        item: tin_sword
+        amount: 4
