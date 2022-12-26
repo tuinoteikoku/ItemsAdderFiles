@@ -10,7 +10,7 @@ recipes:
         - XTX
         - XTX
       ingredients:
-        T: tin_ingot
+        T: tin_rod
         E: duralumin_ingot
       result:
         item: duralumin_pickaxe
@@ -22,7 +22,7 @@ recipes:
         - XTE
         - XTX
       ingredients:
-        T: tin_ingot
+        T: tin_rod
         E: duralumin_ingot
       result:
         item: duralumin_axe
@@ -34,7 +34,7 @@ recipes:
         - XTX
         - XTX
       ingredients:
-        T: tin_ingot
+        T: tin_rod
         E: duralumin_ingot
       result:
         item: duralumin_shovel
@@ -46,7 +46,7 @@ recipes:
         - XTX
         - XTX
       ingredients:
-        T: tin_ingot
+        T: tin_rod
         E: duralumin_ingot
       result:
         item: duralumin_hoe
