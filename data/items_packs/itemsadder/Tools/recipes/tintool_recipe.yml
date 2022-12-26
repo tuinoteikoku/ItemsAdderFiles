@@ -7,10 +7,11 @@ recipes:
       enabled: true
       pattern:
         - TTT
-        - XTX
-        - XTX
+        - XEX
+        - XEX
       ingredients:
         T: tin_ingot
+        E: tin_rod
       result:
         item: tin_pickaxe
     tin_axe:
@@ -18,10 +19,11 @@ recipes:
       enabled: true
       pattern:
         - XTT
-        - XTT
-        - XTX
+        - XET
+        - XEX
       ingredients:
         T: tin_ingot
+        E: tin_rod
       result:
         item: tin_axe
     tin_shovel:
@@ -29,10 +31,11 @@ recipes:
       enabled: true
       pattern:
         - XTX
-        - XTX
-        - XTX
+        - XEX
+        - XEX
       ingredients:
         T: tin_ingot
+        E: tin_rod
       result:
         item: tin_shovel
     tin_hoe:
@@ -40,9 +43,10 @@ recipes:
       enabled: true
       pattern:
         - XTT
-        - XTX
-        - XTX
+        - XEX
+        - XEX
       ingredients:
         T: tin_ingot
+        E: tin_rod
       result:
         item: tin_hoe
