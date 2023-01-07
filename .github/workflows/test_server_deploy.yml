@@ -13,7 +13,7 @@ jobs:
         username: ${{ secrets.SSH_TEST_SERVER_USER }}
         password: ${{ secrets.SSH_TEST_SERVER_PASSWORD }}
         port: 22
-        source: "*.yml,lang/*.yml,data/resource_pack/*,data/resource_pack/assets/*/*,data/items_pack/*/*"
+        source: "*.yml,lang/*.yml,data/resource_pack/*,data/resource_pack/assets/*/*,data/items_packs/*/*"
         target: "test"
         overwrite: true
         rm: true
