@@ -14,6 +14,6 @@ jobs:
         password: ${{ secrets.SSH_TEST_SERVER_PASSWORD }}
         port: 22
         source: "*.yml,lang/*.yml,data/resource_pack/*,data/resource_pack/assets/*/*,data/items_packs/*/*"
-        target: "test"
+        target: "~/serverfiles/plugins/ItemsAdder"
         overwrite: true
         rm: true
