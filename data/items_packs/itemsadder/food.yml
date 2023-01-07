@@ -1,0 +1,561 @@
+info:
+  namespace: itemsadder
+items:
+  pizza:
+    display_name: display-name-pizza
+    permission: pizza
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/pizza.png
+    events:
+      eat:
+        feed:
+          amount: 9
+          saturation: 2.8
+  taco:
+    display_name: display-name-taco
+    permission: taco
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/taco.png
+    events:
+      eat:
+        feed:
+          amount: 6
+          saturation: 5
+  hamburger:
+    display_name: display-name-hamburger
+    permission: hamburger
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/hamburger.png
+    events:
+      eat:
+        feed:
+          amount: 6
+          saturation: 5
+  chips:
+    display_name: display-name-chips
+    permission: chips
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/chips.png
+    events:
+      eat:
+        feed:
+          amount: 6
+          saturation: 6
+  hotdog:
+    display_name: display-name-hotdog
+    permission: hotdog
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/hotdog.png
+    events:
+      eat:
+        feed:
+          amount: 12
+          saturation: 5
+  tropical_fish_nigiri:
+    display_name: display-name-tropical_fish_nigiri
+    permission: tropical_fish_nigiri
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/tropical_fish_nigiri.png
+    events:
+      eat:
+        feed:
+          amount: 1
+          saturation: 1
+  cod_nigiri:
+    display_name: display-name-cod_nigiri
+    permission: cod_nigiri
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/cod_nigiri.png
+    events:
+      eat:
+        feed:
+          amount: 3
+          saturation: 2
+  salmon_nigiri:
+    display_name: display-name-salmon_nigiri
+    permission: salmon_nigiri
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/salmon_nigiri.png
+    events:
+      eat:
+        feed:
+          amount: 4
+          saturation: 2.5
+  sausage:
+    display_name: display-name-sausage
+    permission: sausage
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/sausage.png
+    events:
+      eat:
+        feed:
+          amount: 1
+          saturation: 1
+  cooked_sausage:
+    display_name: display-name-cooked_sausage
+    permission: cooked_sausage
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/cooked_sausage.png
+    events:
+      eat:
+        feed:
+          amount: 3
+          saturation: 1
+  baguette:
+    display_name: display-name-baguette
+    permission: baguette
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/baguette.png
+    events:
+      eat:
+        feed:
+          amount: 8
+          saturation: 2
+  broken_egg:
+    display_name: display-name-broken_egg
+    permission: broken_egg
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/broken_egg.png
+    events:
+      eat:
+        feed:
+          amount: 1
+          saturation: 0.5
+  fried_egg:
+    display_name: display-name-fried_egg
+    permission: fried_egg
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/fried_egg.png
+    events:
+      eat:
+        feed:
+          amount: 5
+          saturation: 1.5
+  peeled_potato:
+    display_name: display-name-peeled_potato
+    permission: peeled_potato
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/peeled_potato.png
+    events:
+      eat:
+        feed:
+          amount: 2
+          saturation: 0.5
+  potato_sticks:
+    display_name: display-name-potato_sticks
+    permission: potato_sticks
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/potato_sticks.png
+    events:
+      eat:
+        feed:
+          amount: 1
+  fried_potato_sticks:
+    display_name: display-name-fried_potato_sticks
+    permission: fried_potato_sticks
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/fried_potato_sticks.png
+    events:
+      eat:
+        feed:
+          amount: 2
+          saturation: 1
+  french_fries:
+    display_name: display-name-french_fries
+    permission: french_fries
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/french_fries.png
+    events:
+      eat:
+        feed:
+          amount: 8
+          saturation: 2
+  donut_base:
+    display_name: display-name-donut_base
+    permission: donut_base
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/donut_base.png
+    events:
+      eat:
+        feed:
+          amount: 1
+          saturation: 0.5
+  cooked_donut_base:
+    display_name: display-name-cooked_donut_base
+    permission: cooked_donut_base
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/cooked_donut_base.png
+    events:
+      eat:
+        feed:
+          amount: 3
+          saturation: 2
+  sweet:
+    display_name: display-name-sweet
+    permission: sweet
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/sweet.png
+    events:
+      eat:
+        feed:
+          amount: 1
+          saturation: 0.2
+  sweet_stick:
+    display_name: display-name-sweet_stick
+    permission: sweet_stick
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/sweet_stick.png
+    events:
+      eat:
+        feed:
+          amount: 2
+          saturation: 0.2
+  pink_donut:
+    display_name: display-name-pink_donut
+    permission: pink_donut
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/pink_donut.png
+    events:
+      eat:
+        feed:
+          amount: 6
+          saturation: 3
+  nether_donut:
+    display_name: display-name-nether_donut
+    permission: nether_donut
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/nether_donut.png
+    events:
+      eat:
+        feed:
+          amount: 8
+          saturation: 4
+  cheese:
+    display_name: display-name-cheese
+    permission: cheese
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/cheese.png
+    events:
+      eat:
+        feed:
+          amount: 8
+          saturation: 3
+  pufferfish_nigiri:
+    display_name: display-name-pufferfish_nigiri
+    permission: pufferfish_nigiri
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/pufferfish_nigiri.png
+    events:
+      eat:
+        feed:
+          amount: 1
+          saturation: 2
+  sliced_bread:
+    display_name: display-name-sliced_bread
+    permission: sliced_bread
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/sliced_bread.png
+    events:
+      eat:
+        feed:
+          amount: 1
+          saturation: 0.2
+  sliced_baguette:
+    display_name: display-name-sliced_baguette
+    permission: sliced_baguette
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/sliced_baguette.png
+    events:
+      eat:
+        feed:
+          amount: 2
+          saturation: 0.2
+  sliced_cheese:
+    display_name: display-name-sliced_cheese
+    permission: sliced_cheese
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/sliced_cheese.png
+    events:
+      eat:
+        feed:
+          amount: 2
+          saturation: 0.2
+  blue_parrotfish:
+    display_name: display-name-blue_parrotfish
+    permission: blue_parrotfish
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/blue_parrotfish.png
+    events:
+      eat:
+        feed:
+          amount: 2
+          saturation: 0.4
+  cooked_blue_parrotfish:
+    display_name: display-name-cooked_blue_parrotfish
+    permission: cooked_blue_parrotfish
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/cooked_blue_parrotfish.png
+    events:
+      eat:
+        feed:
+          amount: 8
+          saturation: 6
+  green_sunfish:
+    display_name: display-name-green_sunfish
+    permission: green_sunfish
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/green_sunfish.png
+    events:
+      eat:
+        feed:
+          amount: 2
+          saturation: 0.2
+  cooked_green_sunfish:
+    display_name: display-name-cooked_green_sunfish
+    permission: cooked_green_sunfish
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/cooked_green_sunfish.png
+    events:
+      eat:
+        feed:
+          amount: 6
+          saturation: 7
+  goldfish:
+    display_name: display-name-goldfish
+    permission: goldfish
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/goldfish.png
+    events:
+      eat:
+        feed:
+          amount: 1
+          saturation: 0.2
+  cooked_goldfish:
+    display_name: display-name-cooked_goldfish
+    permission: cooked_goldfish
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/cooked_goldfish.png
+    events:
+      eat:
+        feed:
+          amount: 6
+          saturation: 3
+  black_moor_goldfish:
+    display_name: display-name-black_moor_goldfish
+    permission: black_moor_goldfish
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/black_moor_goldfish.png
+    events:
+      eat:
+        feed:
+          amount: 3
+          saturation: 0.5
+  cooked_black_moor_goldfish:
+    display_name: display-name-cooked_black_moor_goldfish
+    permission: cooked_black_moor_goldfish
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/cooked_black_moor_goldfish.png
+    events:
+      eat:
+        feed:
+          amount: 8
+          saturation: 10
+  tuna:
+    display_name: display-name-tuna
+    permission: tuna
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/tuna.png
+    events:
+      eat:
+        feed:
+          amount: 4
+          saturation: 0.4
+  cooked_tuna:
+    display_name: display-name-cooked_tuna
+    permission: cooked_tuna
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/cooked_tuna.png
+    events:
+      eat:
+        feed:
+          amount: 8
+          saturation: 9.6
+  sliced_raw_beef:
+    display_name: display-name-sliced_raw_beef
+    permission: sliced_raw_beef
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/sliced_raw_beef.png
+    events:
+      eat:
+        feed:
+          amount: 1
+          saturation: 0.4
+  sliced_roast_beef:
+    display_name: display-name-sliced_roast_beef
+    permission: sliced_roast_beef
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/sliced_roast_beef.png
+    events:
+      eat:
+        feed:
+          amount: 2
+          saturation: 1
+  sliced_bread_with_sweet_berries_jam:
+    display_name: display-name-sliced_bread_with_sweet_berries_jam
+    permission: sliced_bread_with_sweet_berries_jam
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/sliced_bread_with_sweet_berries_jam.png
+    events:
+      eat:
+        feed:
+          amount: 5
+          saturation: 1
+  sliced_bread_with_pear_jam:
+    display_name: display-name-sliced_bread_with_pear_jam
+    permission: sliced_bread_with_pear_jam
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/sliced_bread_with_pear_jam.png
+    events:
+      eat:
+        feed:
+          amount: 5
+          saturation: 1
+  sliced_bread_with_apple_jam:
+    display_name: display-name-sliced_bread_with_apple_jam
+    permission: sliced_bread_with_apple_jam
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/sliced_bread_with_apple_jam.png
+    events:
+      eat:
+        feed:
+          amount: 5
+          saturation: 1

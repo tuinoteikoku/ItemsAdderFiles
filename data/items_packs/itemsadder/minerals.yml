@@ -1,0 +1,126 @@
+info:
+  namespace: itemsadder
+items:
+  ruby:
+    display_name: display-name-ruby
+    permission: ruby
+    resource:
+      material: IRON_INGOT
+      generate: true
+      textures:
+      - item/ruby.png
+  crystal:
+    display_name: display-name-crystal
+    permission: crystal
+    resource:
+      material: IRON_INGOT
+      generate: true
+      textures:
+      - item/crystal.png
+  spinel:
+    display_name: display-name-spinel
+    permission: spinel
+    resource:
+      material: IRON_INGOT
+      generate: true
+      textures:
+      - item/spinel.png
+  turquoise:
+    display_name: display-name-turquoise
+    permission: turquoise
+    resource:
+      material: IRON_INGOT
+      generate: true
+      textures:
+      - item/turquoise.png
+  aqua_aura:
+    display_name: display-name-aqua_aura
+    permission: aqua_aura
+    resource:
+      material: IRON_INGOT
+      generate: true
+      textures:
+      - item/aqua_aura.png
+  amethyst:
+    display_name: display-name-amethyst
+    permission: amethyst
+    resource:
+      material: IRON_INGOT
+      generate: true
+      textures:
+      - item/amethyst.png
+  amethyst_prism:
+    display_name: display-name-amethyst_prism
+    permission: amethyst_prism
+    resource:
+      material: IRON_INGOT
+      generate: true
+      textures:
+      - item/amethyst_prism.png
+  fossil:
+    display_name: display-name-fossil
+    permission: fossil
+    resource:
+      material: IRON_INGOT
+      generate: true
+      textures:
+      - item/fossil.png
+  bronze_ingot:
+    display_name: display-name-bronze_ingot
+    permission: bronze_ingot
+    resource:
+      material: IRON_INGOT
+      generate: true
+      textures:
+      - item/bronze_ingot.png
+  mysterious_material:
+    display_name: display-name-mysterious_material
+    permission: mysterious_material
+    resource:
+      material: IRON_INGOT
+      generate: true
+      textures:
+      - item/mysterious_material.png
+  end_shard:
+    display_name: display-name-end_shard
+    permission: end_shard
+    resource:
+      material: IRON_INGOT
+      generate: true
+      textures:
+      - item/end_shard.png
+  end_crystals:
+    display_name: display-name-end_crystals
+    permission: end_crystals
+    resource:
+      material: IRON_INGOT
+      generate: true
+      textures:
+      - item/end_crystals.png
+  end_ingot:
+    display_name: display-name-end_ingot
+    permission: end_ingot
+    resource:
+      material: IRON_INGOT
+      generate: true
+      textures:
+      - item/end_ingot.png
+  knowledge_fragment:
+    display_name: display-name-knowledge_fragment
+    permission: knowledge_fragment
+    resource:
+      material: IRON_INGOT
+      generate: true
+      textures:
+      - item/knowledge_fragment.png
+  coal_nugget:
+    display_name: display-name-coal_nugget
+    permission: coal_nugget
+    resource:
+      material: COAL
+      generate: true
+      textures:
+      - item/coal_nugget.png
+    behaviours:
+      fuel:
+        burn_ticks: 100

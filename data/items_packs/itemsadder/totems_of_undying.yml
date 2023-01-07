@@ -1,0 +1,14 @@
+info:
+  namespace: itemsadder
+items:
+  arcane_ring:
+    display_name: display-name-arcane_ring
+    permission: arcane_ring
+    lore:
+    - 'lore-1-arcane_ring'
+    - 'lore-2-arcane_ring'
+    resource:
+      material: TOTEM_OF_UNDYING
+      generate: true
+      textures:
+      - item/arcane_ring.png
