@@ -1,0 +1,38 @@
+info: 
+  namespace: iaweapons
+items:
+  protorifle:
+    enabled: true
+    display_name: display-name-prototype_rifle
+    permission: iaweapons.items.prototype_rifle
+    resource:
+      model_path: item/sakuyou_custom/model_prototype_rifle
+      material: WOODEN_SWORD
+      generate: false
+    durability:
+      max_custom_durability: 1600
+    blocked_enchants:
+    - ALL
+    events_cooldown: 600
+    events: 
+     interact:
+      right:
+        shoot_particle:
+          name: FLAME
+          distance: 10
+        play_effect:
+          name: SMOKE
+        damage_entity_in_sight:
+          damage: 10
+          distance: 10
+        play_sound:
+          name: entity.wither.hurt
+          volume: 2
+          pitch: 2
+        decrement_durability:
+          amount: 10
+
+
+        
+
+
