@@ -1,0 +1,190 @@
+info:
+  namespace: itemsadder
+items:
+#スズツール
+  tin_pickaxe:
+    enabled: true
+    display_name: display-name-tin_pickaxe
+    permission: tin_pickaxe
+    resource:
+      material: WOODEN_PICKAXE
+      generate: true
+      textures:
+        - textures/item/tin_pickaxe
+  tin_axe:
+    enabled: true
+    display_name: display-name-tin_axe
+    permission: tin_axe
+    resource:
+      material: WOODEN_AXE
+      generate: true
+      textures:
+        - textures/item/tin_axe
+  tin_shovel:
+    enabled: true
+    display_name: display-name-tin_shovel
+    permission: tin_shovel
+    resource:
+      material: WOODEN_SHOVEL
+      generate: true
+      textures:
+        - textures/item/tin_shovel
+  tin_hoe:
+    enabled: true
+    display_name: display-name-tin_hoe
+    permission: tin_hoe
+    resource:
+      material: WOODEN_HOE
+      generate: true
+      textures:
+        - textures/item/tin_hoe
+#エンドストーンツール
+  endstone_pickaxe:
+    enabled: true
+    display_name: display-name-endstone_pickaxe
+    permission: endstone_pickaxe
+    resource:
+      material: STONE_PICKAXE
+      generate: true
+      textures:
+        - textures/item/endstone_pickaxe
+  endstone_axe:
+    enabled: true
+    display_name: display-name-endstone_axe
+    permission: endstone_axe
+    resource:
+      material: STONE_AXE
+      generate: true
+      textures:
+        - textures/item/endstone_axe
+  endstone_shovel:
+    enabled: true
+    display_name: display-name-endstone_shovel
+    permission: endstone_shovel
+    resource:
+      material: STONE_SHOVEL
+      generate: true
+      textures:
+        - textures/item/endstone_shovel
+  endstone_hoe:
+    enabled: true
+    display_name: display-name-endstone_hoe
+    permission: endstone_hoe
+    resource:
+      material: STONE_HOE
+      generate: true
+      textures:
+        - textures/item/endstone_hoe
+#ジュラルミンツール
+  duralumin_pickaxe:
+    enabled: true
+    display_name: display-name-duralumin_pickaxe
+    permission: duralumin_pickaxe
+    resource:
+      material: IRON_PICKAXE
+      generate: true
+      textures:
+        - textures/item/duralumin_pickaxe
+  duralumin_axe:
+    enabled: true
+    display_name: display-name-duralumin_axe
+    permission: duralumin_axe
+    resource:
+      material: IRON_AXE
+      generate: true
+      textures:
+        - textures/item/duralumin_axe
+  duralumin_shovel:
+    enabled: true
+    display_name: display-name-duralumin_shovel
+    permission: duralumin_shovel
+    resource:
+      material: IRON_SHOVEL
+      generate: true
+      textures:
+        - textures/item/duralumin_shovel
+  duralumin_hoe:
+    enabled: true
+    display_name: display-name-duralumin_hoe
+    permission: duralumin_hoe
+    resource:
+      material: IRON_HOE
+      generate: true
+      textures:
+        - textures/item/duralumin_hoe
+#アルミツール
+  aluminium_pickaxe:
+    enabled: true
+    display_name: display-name-aluminium_pickaxe
+    permission: aluminium_pickaxe
+    resource:
+      material: GOLDEN_PICKAXE
+      generate: true
+      textures:
+        - textures/item/aluminium_pickaxe
+  aluminium_axe:
+    enabled: true
+    display_name: display-name-aluminium_axe
+    permission: aluminium_axe
+    resource:
+      material: GOLDEN_AXE
+      generate: true
+      textures:
+        - textures/item/aluminium_axe
+  aluminium_shovel:
+    enabled: true
+    display_name: display-name-aluminium_shovel
+    permission: aluminium_shovel
+    resource:
+      material: GOLDEN_SHOVEL
+      generate: true
+      textures:
+        - textures/item/aluminium_shovel
+  aluminium_hoe:
+    enabled: true
+    display_name: display-name-aluminium_hoe
+    permission: aluminium_hoe
+    resource:
+      material: GOLDEN_HOE
+      generate: true
+      textures:
+        - textures/item/aluminium_hoe
+#タングステンツール
+  tungsten_pickaxe:
+    enabled: true
+    display_name: display-name-tungsten_pickaxe
+    permission: tungsten_pickaxe
+    resource:
+      material: DIAMOND_PICKAXE
+      generate: true
+      textures:
+        - textures/item/tungsten_pickaxe
+  tungsten_axe:
+    enabled: true
+    display_name: display-name-tungsten_axe
+    permission: tungsten_axe
+    resource:
+      material: DIAMOND_AXE
+      generate: true
+      textures:
+        - textures/item/tungsten_axe
+  tungsten_shovel:
+    enabled: true
+    display_name: display-name-tungsten_shovel
+    permission: tungsten_shovel
+    resource:
+      material: DIAMOND_SHOVEL
+      generate: true
+      textures:
+        - textures/item/tungsten_shovel
+  tungsten_hoe:
+    enabled: true
+    display_name: display-name-tungsten_hoe
+    permission: tungsten_hoe
+    resource:
+      material: DIAMOND_HOE
+      generate: true
+      textures:
+        - textures/item/tungsten_hoe
+
+

@@ -1,0 +1,12 @@
+info:
+    namespace: itemsadder
+items:
+  tin_rod:
+    enabled: true
+    display_name: display-name-tin_rod
+    permission: tin_rod
+    resource:
+      material: STICK
+      generate: true
+      textures:
+        - textures/item/tin_rod

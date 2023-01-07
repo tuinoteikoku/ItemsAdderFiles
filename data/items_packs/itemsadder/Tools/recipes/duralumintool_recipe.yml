@@ -1,0 +1,52 @@
+info:
+    namespace: itemsadder
+recipes:
+  crafting_table:
+    duralumin_pickaxe:
+      permission: duralumin_pickaxe
+      enabled: true
+      pattern:
+        - EEE
+        - XTX
+        - XTX
+      ingredients:
+        T: tin_rod
+        E: duralumin_ingot
+      result:
+        item: duralumin_pickaxe
+    duralumin_axe:
+      permission: duralumin_axe
+      enabled: true
+      pattern:
+        - XEE
+        - XTE
+        - XTX
+      ingredients:
+        T: tin_rod
+        E: duralumin_ingot
+      result:
+        item: duralumin_axe
+    duralumin_shovel:
+      permission: duralumin_shovel
+      enabled: true
+      pattern:
+        - XEX
+        - XTX
+        - XTX
+      ingredients:
+        T: tin_rod
+        E: duralumin_ingot
+      result:
+        item: duralumin_shovel
+    duralumin_hoe:
+      permission: duralumin_hoe
+      enabled: true
+      pattern:
+        - XEE
+        - XTX
+        - XTX
+      ingredients:
+        T: tin_rod
+        E: duralumin_ingot
+      result:
+        item: duralumin_hoe

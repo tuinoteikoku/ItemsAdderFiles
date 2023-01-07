@@ -1,0 +1,39 @@
+info:
+  namespace: itemsadder
+items:
+  mcon_helmet:
+    enabled: true
+    display_name: display-name-mcon_helmet
+    permission: mcon_helmet
+    resource:
+      material: DIAMOND_HELMET
+      generate: true
+      textures:
+        - textures/item/mcon_helmet
+  mcon_chestplate:
+    enabled: true
+    display_name: display-name-mcon_chestplate
+    permission: mcon_chestplate
+    resource:
+      material: DIAMOND_CHESTPLATE
+      generate: true
+      textures:
+        - textures/item/mcon_chestplate
+  mcon_leggings:
+    enabled: true
+    display_name: display-name-mcon_leggings
+    permission: mcon_leggings
+    resource:
+      material: DIAMOND_LEGGINGS
+      generate: true
+      textures:
+        - textures/item/mcon_leggings
+  mcon_boots:
+    enabled: true
+    display_name: display-name-mcon_boots
+    permission: mcon_boots
+    resource:
+      material: DIAMOND_BOOTS
+      generate: true
+      textures:
+        - textures/item/mcon_boots

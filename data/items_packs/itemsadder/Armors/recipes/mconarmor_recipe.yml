@@ -1,0 +1,48 @@
+info:
+    namespace: itemsadder
+recipes:
+  crafting_table:
+    mcon_helmet:
+      permission: mcon_helmet
+      enabled: true
+      pattern:
+        - TTT
+        - TXT
+        - XXX
+      ingredients:
+        T: m_con_nether_brick
+      result:
+        item: mcon_helmet
+    mcon_chestplate:
+      permission: mcon_chestplate
+      enabled: true
+      pattern:
+        - TXT
+        - TTT
+        - TTT
+      ingredients:
+        T: m_con_nether_brick
+      result:
+        item: mcon_chestplate
+    mcon_leggings:
+      permission: mcon_leggings
+      enabled: true
+      pattern:
+        - TTT
+        - TXT
+        - TXT
+      ingredients:
+        T: m_con_nether_brick
+      result:
+        item: mcon_leggings
+    mcon_boots:
+      permission: mcon_boots
+      enabled: true
+      pattern:
+        - XXX
+        - TXT
+        - TXT
+      ingredients:
+        T: m_con_nether_brick
+      result:
+        item: mcon_boots

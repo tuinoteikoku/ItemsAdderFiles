@@ -1,0 +1,52 @@
+info:
+    namespace: itemsadder
+recipes:
+  crafting_table:
+    endstone_pickaxe:
+      permission: endstone_pickaxe
+      enabled: true
+      pattern:
+        - EEE
+        - XTX
+        - XTX
+      ingredients:
+        T: tin_rod
+        E: endstone_ingot
+      result:
+        item: endstone_pickaxe
+    endstone_axe:
+      permission: endstone_axe
+      enabled: true
+      pattern:
+        - XEE
+        - XTE
+        - XTX
+      ingredients:
+        T: tin_rod
+        E: endstone_ingot
+      result:
+        item: endstone_axe
+    endstone_shovel:
+      permission: endstone_shovel
+      enabled: true
+      pattern:
+        - XEX
+        - XTX
+        - XTX
+      ingredients:
+        T: tin_rod
+        E: endstone_ingot
+      result:
+        item: endstone_shovel
+    endstone_hoe:
+      permission: endstone_hoe
+      enabled: true
+      pattern:
+        - XEE
+        - XTX
+        - XTX
+      ingredients:
+        T: tin_rod
+        E: endstone_ingot
+      result:
+        item: endstone_hoe

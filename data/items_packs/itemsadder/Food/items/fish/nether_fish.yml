@@ -1,0 +1,59 @@
+info:
+  namespace: itemsadder
+items:
+  bone_fish:
+    enabled: true
+    display_name: display-name-bone_fish
+    permission: bone_fish
+    resource:
+      material: TROPICAL_FISH
+      generate: true
+      textures:
+        - textures/item/bone_fish
+    events:
+      eat:
+        feed:
+          amount: 2
+          saturation: 1
+  magma_salmon:
+    enabled: true
+    display_name: display-name-magma_salmon
+    permission: magma_salmon
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+        - textures/item/magma_salmon
+    events:
+      eat:
+        feed:
+          amount: 5
+          saturation: 4
+  spine_sunfish:
+    enabled: true
+    display_name: display-name-spine_sunfish
+    permission: spine_sunfish
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+        - textures/item/spine_sunfish
+      events:
+        eat:
+          feed:
+          amount: 4
+          saturation: 5
+  heat_eel:
+    enabled: true
+    display_name: display-name-heat_eel
+    permission: heat_eel
+    resource:
+      material: COOKED_BEEF
+      generate: true
+      textures:
+        - textures/item/heat_eel
+      events:
+        eat:
+          feed:
+          amount: 10
+          saturation: 10

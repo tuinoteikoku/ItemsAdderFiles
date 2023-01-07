@@ -1,0 +1,12 @@
+info:
+  namespace: itemsadder
+items:
+  mcon_sword:
+    enabled: true
+    display_name: display-name-mcon_sword
+    permission: mcon_sword
+    resource:
+      material: DIAMOND_SWORD
+      generate: true
+      textures:
+        - textures/item/mcon_sword

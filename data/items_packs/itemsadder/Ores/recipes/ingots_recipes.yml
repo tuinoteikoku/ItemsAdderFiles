@@ -1,0 +1,38 @@
+info:
+  namespace: itemsadder
+recipes:
+  crafting_table:
+    endstone_ingot:
+      permission: endstone_ingot
+      enabled: true
+      pattern:
+        - XXX
+        - XTE
+        - XXX
+      ingredients:
+        T: tin_ingot
+        E: END_STONE
+      result:
+        item: endstone_ingot
+    m_con_nether_brick:
+      permission: m_con_nether_brick
+      enabled: true
+      pattern:
+        - CCC
+        - CCC
+        - CCC
+      ingredients:
+        C: con_nether_brick
+      result:
+        item: m_con_nether_brick
+    con_nether_brick:
+      permission: con_nether_brick
+      enabled: true
+      pattern:
+        - NNN
+        - NNN
+        - NNN
+      ingredients:
+        N: NETHER_BRICK
+      result:
+        item: con_nether_brick

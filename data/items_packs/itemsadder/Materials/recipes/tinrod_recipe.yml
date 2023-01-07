@@ -1,0 +1,18 @@
+info:
+    namespace: itemsadder
+recipes:
+  crafting_table:
+    tin_rod:
+      permission: tin_rod
+      enabled: true
+      pattern:
+        - XXX
+        - XTX
+        - XTX
+      pattern_2:
+        - XT
+        - XT
+      ingredients:
+        T: tin_ingot
+      result:
+        item: tin_rod
