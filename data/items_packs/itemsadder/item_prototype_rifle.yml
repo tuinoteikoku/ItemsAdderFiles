@@ -1,10 +1,10 @@
 info: 
-  namespace: iaweapons
+  namespace: itemsadder
 items:
   protorifle:
     enabled: true
     display_name: display-name-prototype_rifle
-    permission: iaweapons.items.prototype_rifle
+    permission: prototype_rifle
     resource:
       model_path: item/sakuyou_custom/model_prototype_rifle
       material: WOODEN_SWORD
