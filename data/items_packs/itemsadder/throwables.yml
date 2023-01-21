@@ -1,0 +1,66 @@
+info:
+  namespace: itemsadder
+items:
+  grenade:
+    display_name: display-name-grenade
+    permission: grenade
+    resource:
+      material: SNOWBALL
+      generate: true
+      textures:
+      - item/grenade.png
+    events:
+      item_throw:
+        play_effect:
+          name: SMOKE
+      item_hit_ground:
+        explosion:
+          power: 2
+          fire: false
+          break_blocks: true
+      item_hit_entity:
+        explosion:
+          power: 2
+          fire: false
+          break_blocks: true
+  mysterious_amulet:
+    display_name: display-name-mysterious_amulet
+    permission: mysterious_amulet
+    resource:
+      material: ENDER_PEARL
+      generate: true
+      textures:
+      - item/mysterious_amulet.png
+    durability:
+      usages: 20
+    events:
+      item_throw:
+        decrement_usages:
+          amount: 1
+        increment_amount:
+          amount: 1
+        play_particle:
+          name: ENCHANTMENT_TABLE
+        play_sound:
+          name: itemsadder:item.mysterious_sword.attack
+          volume: 1
+          pitch: 1
+  ufo_toy:
+    display_name: display-name-ufo_toy
+    permission: ufo_toy
+    lore:
+    - 'lore-1-ufo_toy'
+    resource:
+      material: ENDER_EYE
+      generate: false
+      model_path: item/ufo_toy
+    durability:
+      usages: 15
+    events:
+      interact:
+        right:
+          decrement_usages:
+            amount: 1
+      item_throw:
+        play_particle:
+          name: ENCHANTMENT_TABLE

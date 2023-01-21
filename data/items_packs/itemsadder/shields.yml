@@ -1,0 +1,75 @@
+info:
+  namespace: itemsadder
+items:
+  ender_shield:
+    display_name: display-name-ender_shield
+    permission: ender_shield
+    resource:
+      material: SHIELD
+      generate: false
+      model_path: item/ender_shield
+    durability:
+      max_custom_durability: 1324
+  obsidian_shield:
+    display_name: display-name-obsidian_shield
+    permission: obsidian_shield
+    resource:
+      material: SHIELD
+      generate: false
+      model_path: item/obsidian_shield
+    durability:
+      max_custom_durability: 1024
+  bronze_shield:
+    display_name: display-name-bronze_shield
+    permission: bronze_shield
+    resource:
+      material: SHIELD
+      generate: false
+      model_path: item/bronze_shield
+    durability:
+      max_custom_durability: 1724
+  ruby_shield:
+    display_name: display-name-ruby_shield
+    permission: ruby_shield
+    resource:
+      material: SHIELD
+      generate: false
+      model_path: item/ruby_shield
+    durability:
+      max_custom_durability: 1224
+  spinel_shield:
+    display_name: display-name-spinel_shield
+    permission: spinel_shield
+    resource:
+      material: SHIELD
+      generate: false
+      model_path: item/spinel_shield
+    durability:
+      max_custom_durability: 1024
+  turquoise_shield:
+    display_name: display-name-turquoise_shield
+    permission: turquoise_shield
+    resource:
+      material: SHIELD
+      generate: false
+      model_path: item/turquoise_shield
+    durability:
+      max_custom_durability: 1024
+  amethyst_shield:
+    display_name: display-name-amethyst_shield
+    permission: amethyst_shield
+    resource:
+      material: SHIELD
+      generate: false
+      model_path: item/amethyst_shield
+    durability:
+      max_custom_durability: 1524
+  fossil_shield:
+    display_name: display-name-fossil_shield
+    permission: fossil_shield
+    resource:
+      material: SHIELD
+      generate: false
+      model_path: item/fossil_shield
+    durability:
+      max_custom_durability: 650
