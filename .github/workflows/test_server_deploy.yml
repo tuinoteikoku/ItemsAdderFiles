@@ -6,14 +6,27 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
-    - name: copy file via ssh password
+    - name: Copy Data Folder
       uses: appleboy/scp-action@master
       with:
         host: ${{ secrets.SSH_TEST_SERVER_HOST }}
         username: ${{ secrets.SSH_TEST_SERVER_USER }}
         password: ${{ secrets.SSH_TEST_SERVER_PASSWORD }}
         port: 22
-        source: "*.yml,lang/*.yml,data/resource_pack/*,data/resource_pack/assets/*/*,data/items_packs/*/*"
-        target: "~/serverfiles/plugins/ItemsAdder"
+        source: "data/resource_pack/*,data/resource_pack/assets/*/*,data/items_packs/*/*"
+        target: "~/serverfiles/plugins/ItemsAdder/data"
+        strip_components: 1
+        overwrite: true
+        rm: true
+    - name: Copy Lang Folder
+      uses: appleboy/scp-action@master
+      with:
+        host: ${{ secrets.SSH_TEST_SERVER_HOST }}
+        username: ${{ secrets.SSH_TEST_SERVER_USER }}
+        password: ${{ secrets.SSH_TEST_SERVER_PASSWORD }}
+        port: 22
+        source: "lang/*.yml"
+        target: "~/serverfiles/plugins/ItemsAdder/lang"
+        strip_components: 1
         overwrite: true
         rm: true
