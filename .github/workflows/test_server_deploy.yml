@@ -14,7 +14,8 @@ jobs:
         password: ${{ secrets.SSH_TEST_SERVER_PASSWORD }}
         port: 22
         source: "data/resource_pack/*,data/resource_pack/assets/*/*,data/items_packs/*/*"
-        target: "~/serverfiles/plugins/ItemsAdder"
+        target: "~/serverfiles/plugins/ItemsAdder/data"
+        strip_components: 1
         overwrite: true
         rm: true
     - name: Copy Lang Folder
@@ -25,5 +26,7 @@ jobs:
         password: ${{ secrets.SSH_TEST_SERVER_PASSWORD }}
         port: 22
         source: "lang/*.yml"
-        target: "~/serverfiles/plugins/ItemsAdder"
+        target: "~/serverfiles/plugins/ItemsAdder/lang"
+        strip_components: 1
         overwrite: true
+        rm: true
