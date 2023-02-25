@@ -27,4 +27,3 @@ jobs:
         source: "lang/*.yml"
         target: "~/serverfiles/plugins/ItemsAdder"
         overwrite: true
-        rm: true
