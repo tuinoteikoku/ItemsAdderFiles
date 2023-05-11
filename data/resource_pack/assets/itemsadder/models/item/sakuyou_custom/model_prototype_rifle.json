@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "item/sakuyou_custom/texture_prototype_rifle",
-		"particle": "item/sakuyou_custom/texture_prototype_rifle"
+		"0": "iaweapons:data/resource_pack/assets/itemsadder/textures/item/sakuyou_custom/texture_prototype_rifle.png",
+		"particle": "textures/item/sakuyou_custom/texture_prototype_rifle"
 	},
 	"elements": [
 		{
