@@ -1,0 +1,14 @@
+info:
+  namespace: itemsadder
+items:
+  burned_chorus:
+    display_name: display-name-burned_chorus
+    permission: burned_chorus
+    resource:
+      material: COAL
+      generate: true
+      textures:
+      - textures/item/burned_chorus
+    behaviours:
+      fuel: 
+        burn_ticks: 1600

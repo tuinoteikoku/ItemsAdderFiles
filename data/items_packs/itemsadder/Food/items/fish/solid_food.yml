@@ -1,0 +1,17 @@
+info:
+  namespace: itemsadder
+items:
+  solid_food:
+    enabled: true
+    display_name: display-name-solid_food
+    permission: solid_food
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+        - textures/item/solid_food
+    events:
+      eat:
+        feed:
+          amount: 5
+          saturation: 5

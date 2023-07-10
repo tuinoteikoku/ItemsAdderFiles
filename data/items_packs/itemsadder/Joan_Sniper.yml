@@ -1,0 +1,33 @@
+info:
+  namespace: itemsadder
+items:
+  Joan_Sniper:
+    enabled: true
+    display_name: display-name-Joan_Sniper
+    permission: itemsadder.items.Joan_Sniper
+    resource:
+      material: IRON_SWORD
+      model_id: 1003
+      generate: true
+      textures:
+      - "minecraft:item/iron_sword.png"
+    #↓ここについか
+    events_cooldown: 100
+    events:
+      interact: 
+        right:
+         play_sound_first:
+          name: minecraft:entity.iron_golem.damage
+          volume: 1
+          pitch: 1
+         shoot_particle:
+          name: FLAME
+          distance: 15
+         damage_entity_in_sight:
+          damage: 5
+          distance: 15
+         play_sound_second:
+          name: minecraft:entity.iron_golem.repair
+          volume: 1
+          pitch: 1
+          delay: 100

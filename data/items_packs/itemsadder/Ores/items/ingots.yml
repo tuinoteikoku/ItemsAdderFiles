@@ -1,0 +1,66 @@
+info:
+  namespace: itemsadder
+items:
+  tin_ingot:
+    enabled: true
+    display_name: display-name-tin_ingot
+    permission: tin_ingot
+    resource:
+      material: STICK
+      generate: true
+      textures:
+        - textures/item/tin_ingot
+  endstone_ingot:
+    enabled: true
+    display_name: display-name-endstone_ingot
+    permission: endstone_ingot
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - textures/item/endstone_ingot
+  duralumin_ingot:
+    enabled: true
+    display_name: display-name-duralumin_ingot
+    permission: duralumin_ingot
+    resource:
+      material: IRON_INGOT
+      generate: true
+      textures:
+        - textures/item/duralumin_ingot
+  aluminium_ingot:
+    enabled: true
+    display_name: display-name-aluminium_ingot
+    permission: aluminium_ingot
+    resource:
+      material: GOLD_INGOT
+      generate: true
+      textures:
+        - textures/item/aluminium_ingot
+  tungsten_ingot:
+    enabled: true
+    display_name: display-name-tungsten_ingot
+    permission: tungsten_ingot
+    resource:
+      material: DIAMOND
+      generate: true
+      textures:
+        - textures/item/tungsten_ingot
+  con_nether_brick:
+    enabled: true
+    display_name: display-name-con_nether_brick
+    permission: con_nether_brick
+    resource:
+      material: NETHER_BRICK
+      generate: true
+      textures:
+        - textures/item/con_nether_brick
+  m_con_nether_brick:
+    enabled: true
+    display_name: display-name-m_con_nether_brick
+    permission: m_con_nether_brick
+    resource:
+      material: DIAMOND
+      generate: true
+      textures:
+        - textures/item/m_con_nether_brick

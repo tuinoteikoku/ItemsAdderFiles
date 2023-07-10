@@ -1,0 +1,40 @@
+info:
+    namespace: itemsadder
+items:
+  #高濃縮ネザーラックツール
+  mcon_pickaxe:
+    enabled: true
+    display_name: display-name-mcon_pickaxe
+    permission: mcon_pickaxe
+    resource:
+      material: DIAMOND_PICKAXE
+      generate: true
+      textures:
+        - textures/item/mcon_pickaxe
+  mcon_axe:
+    enabled: true
+    display_name: display-name-mcon_axe
+    permission: mcon_axe
+    resource:
+      material: DIAMOND_AXE
+      generate: true
+      textures:
+        - textures/item/mcon_axe
+  mcon_shovel:
+    enabled: true
+    display_name: display-name-mcon_shovel
+    permission: mcon_shovel
+    resource:
+      material: DIAMOND_SHOVEL
+      generate: true
+      textures:
+        - textures/item/mcon_shovel
+  mcon_hoe:
+    enabled: true
+    display_name: display-name-mcon_hoe
+    permission: mcon_hoe
+    resource:
+      material: DIAMOND_HOE
+      generate: true
+      textures:
+        - textures/item/mcon_hoe

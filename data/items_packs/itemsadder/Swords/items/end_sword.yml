@@ -1,0 +1,48 @@
+info:
+  namespace: itemsadder
+items:
+  tin_sword:
+    enabled: true
+    display_name: display-name-tin_sword
+    permission: tin_sword
+    resource:
+      material: WOODEN_SWORD
+      generate: true
+      textures:
+        - textures/item/tin_sword
+  endstone_sword:
+    enabled: true
+    display_name: display-name-endstone_sword
+    permission: endstone_sword
+    resource:
+      material: STONE_SWORD
+      generate: true
+      textures:
+        - textures/item/endstone_sword
+  duralumin_sword:
+    enabled: true
+    display_name: display-name-duralumin_sword
+    permission: duralumin_sword
+    resource:
+      material: IRON_SWORD
+      generate: true
+      textures:
+        - textures/item/duralumin_sword
+  aluminium_sword:
+    enabled: true
+    display_name: display-name-aluminium_sword
+    permission: aluminium_sword
+    resource:
+      material: GOLDEN_SWORD
+      generate: true
+      textures:
+        - textures/item/aluminium_sword
+  tungsten_sword:
+    enabled: true
+    display_name: display-name-tungsten_sword
+    permission: tungsten_sword
+    resource:
+      material: DIAMOND_SWORD
+      generate: true
+      textures:
+        - textures/item/tungsten_sword

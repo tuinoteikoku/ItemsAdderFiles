@@ -1,0 +1,48 @@
+info:
+    namespace: itemsadder
+recipes:
+  crafting_table:
+    aluminium_helmet:
+      permission: aluminium_helmet
+      enabled: true
+      pattern:
+        - TTT
+        - TXT
+        - XXX
+      ingredients:
+        T: aluminium_ingot
+      result:
+        item: aluminium_helmet
+    aluminium_chestplate:
+      permission: aluminium_chestplate
+      enabled: true
+      pattern:
+        - TXT
+        - TTT
+        - TTT
+      ingredients:
+        T: aluminium_ingot
+      result:
+        item: aluminium_chestplate
+    aluminium_leggings:
+      permission: aluminium_leggings
+      enabled: true
+      pattern:
+        - TTT
+        - TXT
+        - TXT
+      ingredients:
+        T: aluminium_ingot
+      result:
+        item: aluminium_leggings
+    aluminium_boots:
+      permission: aluminium_boots
+      enabled: true
+      pattern:
+        - XXX
+        - TXT
+        - TXT
+      ingredients:
+        T: aluminium_ingot
+      result:
+        item: aluminium_boots
